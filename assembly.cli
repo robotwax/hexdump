@@ -1,0 +1,2615 @@
+0:  32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+3:  35 31 35 32 20          xor    eax,0x20323531
+8:  20 30                   and    BYTE PTR [eax],dh
+a:  30 20                   xor    BYTE PTR [eax],ah
+c:  34 33                   xor    al,0x33
+e:  20 34 44                and    BYTE PTR [esp+eax*2],dh
+11: 20 34 34                and    BYTE PTR [esp+esi*1],dh
+14: 20 35 34 20 34 32       and    BYTE PTR ds:0x32342034,dh
+1a: 20 34 43                and    BYTE PTR [ebx+eax*2],dh
+1d: 20 30                   and    BYTE PTR [eax],dh
+1f: 36 20 35 30 20 35 34    and    BYTE PTR ss:0x34352030,dh
+26: 20 35 39 20 34 33       and    BYTE PTR ds:0x33342039,dh
+2c: 20 34 46                and    BYTE PTR [esi+eax*2],dh
+2f: 20 34 45 20 30 30 20    and    BYTE PTR [eax*2+0x20303020],dh
+36: 41                      inc    ecx
+37: 31 20                   xor    DWORD PTR [eax],esp
+39: 20 20                   and    BYTE PTR [eax],ah
+3b: 2e 43                   cs inc ebx
+3d: 4d                      dec    ebp
+3e: 44                      inc    esp
+3f: 54                      push   esp
+40: 42                      inc    edx
+41: 4c                      dec    esp
+42: 2e 50                   cs push eax
+44: 54                      push   esp
+45: 59                      pop    ecx
+46: 43                      inc    ebx
+47: 4f                      dec    edi
+48: 4e                      dec    esi
+49: 2e 2e 20 20             cs and BYTE PTR cs:[eax],ah
+4d: 20 20                   and    BYTE PTR [eax],ah
+4f: 20 20                   and    BYTE PTR [eax],ah
+51: 20 20                   and    BYTE PTR [eax],ah
+53: 20 20                   and    BYTE PTR [eax],ah
+55: 20 20                   and    BYTE PTR [eax],ah
+57: 20 20                   and    BYTE PTR [eax],ah
+59: 20 20                   and    BYTE PTR [eax],ah
+5b: 20 20                   and    BYTE PTR [eax],ah
+5d: 20 20                   and    BYTE PTR [eax],ah
+5f: 20 20                   and    BYTE PTR [eax],ah
+61: 20 20                   and    BYTE PTR [eax],ah
+63: 20 20                   and    BYTE PTR [eax],ah
+65: 20 20                   and    BYTE PTR [eax],ah
+67: 20 20                   and    BYTE PTR [eax],ah
+69: 20 20                   and    BYTE PTR [eax],ah
+6b: 20 20                   and    BYTE PTR [eax],ah
+6d: 20 20                   and    BYTE PTR [eax],ah
+6f: 20 20                   and    BYTE PTR [eax],ah
+71: 20 20                   and    BYTE PTR [eax],ah
+73: 20 20                   and    BYTE PTR [eax],ah
+75: 20 20                   and    BYTE PTR [eax],ah
+77: 20 20                   and    BYTE PTR [eax],ah
+79: 20 20                   and    BYTE PTR [eax],ah
+7b: 20 20                   and    BYTE PTR [eax],ah
+7d: 20 20                   and    BYTE PTR [eax],ah
+7f: 20 20                   and    BYTE PTR [eax],ah
+81: 20 20                   and    BYTE PTR [eax],ah
+83: 20 20                   and    BYTE PTR [eax],ah
+85: 20 20                   and    BYTE PTR [eax],ah
+87: 20 20                   and    BYTE PTR [eax],ah
+89: 20 20                   and    BYTE PTR [eax],ah
+8b: 20 20                   and    BYTE PTR [eax],ah
+8d: 20 20                   and    BYTE PTR [eax],ah
+8f: 0a 32                   or     dh,BYTE PTR [edx]
+91: 34 32                   xor    al,0x32
+93: 35 31 37 32 20          xor    eax,0x20323731
+98: 20 30                   and    BYTE PTR [eax],dh
+9a: 30 20                   xor    BYTE PTR [eax],ah
+9c: 41                      inc    ecx
+9d: 32 20                   xor    ah,BYTE PTR [eax]
+9f: 30 30                   xor    BYTE PTR [eax],dh
+a1: 20 41 34                and    BYTE PTR [ecx+0x34],al
+a4: 20 30                   and    BYTE PTR [eax],dh
+a6: 30 20                   xor    BYTE PTR [eax],ah
+a8: 31 38                   xor    DWORD PTR [eax],edi
+aa: 20 35 38 20 42 38       and    BYTE PTR ds:0x38422038,dh
+b0: 20 44 38 20             and    BYTE PTR [eax+edi*1+0x20],al
+b4: 43                      inc    ebx
+b5: 45                      inc    ebp
+b6: 20 44 46 20             and    BYTE PTR [esi+eax*2+0x20],al
+ba: 30 35 20 42 32 20       xor    BYTE PTR ds:0x20324220,dh
+c0: 30 44 20 38             xor    BYTE PTR [eax+eiz*1+0x38],al
+c4: 31 20                   xor    DWORD PTR [eax],esp
+c6: 33 33                   xor    esi,DWORD PTR [ebx]
+c8: 20 20                   and    BYTE PTR [eax],ah
+ca: 20 2e                   and    BYTE PTR [esi],ch
+cc: 2e 2e 2e 2e 2e 58       cs cs cs cs cs pop eax
+d2: 2e 2e 2e 2e 2e 2e 2e    cs cs cs cs cs cs cs xor esp,DWORD PTR cs:[eax]
+d9: 2e 33 20
+dc: 20 20                   and    BYTE PTR [eax],ah
+de: 20 20                   and    BYTE PTR [eax],ah
+e0: 20 20                   and    BYTE PTR [eax],ah
+e2: 20 20                   and    BYTE PTR [eax],ah
+e4: 20 20                   and    BYTE PTR [eax],ah
+e6: 20 20                   and    BYTE PTR [eax],ah
+e8: 20 20                   and    BYTE PTR [eax],ah
+ea: 20 20                   and    BYTE PTR [eax],ah
+ec: 20 20                   and    BYTE PTR [eax],ah
+ee: 20 20                   and    BYTE PTR [eax],ah
+f0: 20 20                   and    BYTE PTR [eax],ah
+f2: 20 20                   and    BYTE PTR [eax],ah
+f4: 20 20                   and    BYTE PTR [eax],ah
+f6: 20 20                   and    BYTE PTR [eax],ah
+f8: 20 20                   and    BYTE PTR [eax],ah
+fa: 20 20                   and    BYTE PTR [eax],ah
+fc: 20 20                   and    BYTE PTR [eax],ah
+fe: 20 20                   and    BYTE PTR [eax],ah
+100:    20 20                   and    BYTE PTR [eax],ah
+102:    20 20                   and    BYTE PTR [eax],ah
+104:    20 20                   and    BYTE PTR [eax],ah
+106:    20 20                   and    BYTE PTR [eax],ah
+108:    20 20                   and    BYTE PTR [eax],ah
+10a:    20 20                   and    BYTE PTR [eax],ah
+10c:    20 20                   and    BYTE PTR [eax],ah
+10e:    20 20                   and    BYTE PTR [eax],ah
+110:    20 20                   and    BYTE PTR [eax],ah
+112:    20 20                   and    BYTE PTR [eax],ah
+114:    20 20                   and    BYTE PTR [eax],ah
+116:    20 20                   and    BYTE PTR [eax],ah
+118:    20 20                   and    BYTE PTR [eax],ah
+11a:    20 20                   and    BYTE PTR [eax],ah
+11c:    20 20                   and    BYTE PTR [eax],ah
+11e:    20 0a                   and    BYTE PTR [edx],cl
+120:    32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+123:    35 32 31 32 20          xor    eax,0x20323132
+128:    20 38                   and    BYTE PTR [eax],bh
+12a:    41                      inc    ecx
+12b:    20 34 46                and    BYTE PTR [esi+eax*2],dh
+12e:    20 32                   and    BYTE PTR [edx],dh
+130:    30 20                   xor    BYTE PTR [eax],ah
+132:    31 38                   xor    DWORD PTR [eax],edi
+134:    20 46 38                and    BYTE PTR [esi+0x38],al
+137:    20 35 32 20 33 41       and    BYTE PTR ds:0x41332032,dh
+13d:    20 36                   and    BYTE PTR [esi],dh
+13f:    35 20 35 31 20          xor    eax,0x20313520
+144:    37                      aaa
+145:    38 20                   cmp    BYTE PTR [eax],ah
+147:    31 33                   xor    DWORD PTR [ebx],esi
+149:    20 36                   and    BYTE PTR [esi],dh
+14b:    41                      inc    ecx
+14c:    20 34 37                and    BYTE PTR [edi+esi*1],dh
+14f:    20 30                   and    BYTE PTR [eax],dh
+151:    44                      inc    esp
+152:    20 38                   and    BYTE PTR [eax],bh
+154:    33 20                   xor    esp,DWORD PTR [eax]
+156:    30 37                   xor    BYTE PTR [edi],dh
+158:    20 20                   and    BYTE PTR [eax],ah
+15a:    20 2e                   and    BYTE PTR [esi],ch
+15c:    4f                      dec    edi
+15d:    20 2e                   and    BYTE PTR [esi],ch
+15f:    2e 52                   cs push edx
+161:    3a 65 51                cmp    ah,BYTE PTR [ebp+0x51]
+164:    78 2e                   js     0x194
+166:    6a 47                   push   0x47
+168:    2e 2e 2e 20 20          cs cs and BYTE PTR cs:[eax],ah
+16d:    20 20                   and    BYTE PTR [eax],ah
+16f:    20 20                   and    BYTE PTR [eax],ah
+171:    20 20                   and    BYTE PTR [eax],ah
+173:    20 20                   and    BYTE PTR [eax],ah
+175:    20 20                   and    BYTE PTR [eax],ah
+177:    20 20                   and    BYTE PTR [eax],ah
+179:    20 20                   and    BYTE PTR [eax],ah
+17b:    20 20                   and    BYTE PTR [eax],ah
+17d:    20 20                   and    BYTE PTR [eax],ah
+17f:    20 20                   and    BYTE PTR [eax],ah
+181:    20 20                   and    BYTE PTR [eax],ah
+183:    20 20                   and    BYTE PTR [eax],ah
+185:    20 20                   and    BYTE PTR [eax],ah
+187:    20 20                   and    BYTE PTR [eax],ah
+189:    20 20                   and    BYTE PTR [eax],ah
+18b:    20 20                   and    BYTE PTR [eax],ah
+18d:    20 20                   and    BYTE PTR [eax],ah
+18f:    20 20                   and    BYTE PTR [eax],ah
+191:    20 20                   and    BYTE PTR [eax],ah
+193:    20 20                   and    BYTE PTR [eax],ah
+195:    20 20                   and    BYTE PTR [eax],ah
+197:    20 20                   and    BYTE PTR [eax],ah
+199:    20 20                   and    BYTE PTR [eax],ah
+19b:    20 20                   and    BYTE PTR [eax],ah
+19d:    20 20                   and    BYTE PTR [eax],ah
+19f:    20 20                   and    BYTE PTR [eax],ah
+1a1:    20 20                   and    BYTE PTR [eax],ah
+1a3:    20 20                   and    BYTE PTR [eax],ah
+1a5:    20 20                   and    BYTE PTR [eax],ah
+1a7:    20 20                   and    BYTE PTR [eax],ah
+1a9:    20 20                   and    BYTE PTR [eax],ah
+1ab:    20 20                   and    BYTE PTR [eax],ah
+1ad:    20 20                   and    BYTE PTR [eax],ah
+1af:    0a 32                   or     dh,BYTE PTR [edx]
+1b1:    34 32                   xor    al,0x32
+1b3:    35 32 33 32 20          xor    eax,0x20323332
+1b8:    20 31                   and    BYTE PTR [ecx],dh
+1ba:    32 20                   xor    ah,BYTE PTR [eax]
+1bc:    33 41 20                xor    eax,DWORD PTR [ecx+0x20]
+1bf:    32 41 20                xor    al,BYTE PTR [ecx+0x20]
+1c2:    32 34 20                xor    dh,BYTE PTR [eax+eiz*1]
+1c5:    30 42 20                xor    BYTE PTR [edx+0x20],al
+1c8:    31 39                   xor    DWORD PTR [ecx],edi
+1ca:    20 44 33 20             and    BYTE PTR [ebx+esi*1+0x20],al
+1ce:    36 36 20 33             ss and BYTE PTR ss:[ebx],dh
+1d2:    45                      inc    ebp
+1d3:    20 30                   and    BYTE PTR [eax],dh
+1d5:    34 20                   xor    al,0x20
+1d7:    33 39                   xor    edi,DWORD PTR [ecx]
+1d9:    20 33                   and    BYTE PTR [ebx],dh
+1db:    35 20 35 33 20          xor    eax,0x20333520
+1e0:    30 31                   xor    BYTE PTR [ecx],dh
+1e2:    20 37                   and    BYTE PTR [edi],dh
+1e4:    31 20                   xor    DWORD PTR [eax],esp
+1e6:    32 39                   xor    bh,BYTE PTR [ecx]
+1e8:    20 20                   and    BYTE PTR [eax],ah
+1ea:    20 2e                   and    BYTE PTR [esi],ch
+1ec:    3a 2a                   cmp    ch,BYTE PTR [edx]
+1ee:    24 2e                   and    al,0x2e
+1f0:    2e 2e 66 3e 2e 39 35    cs cs ds cmp WORD PTR cs:0x29712e53,si
+1f7:    53 2e 71 29
+1fb:    20 20                   and    BYTE PTR [eax],ah
+1fd:    20 20                   and    BYTE PTR [eax],ah
+1ff:    20 20                   and    BYTE PTR [eax],ah
+201:    20 20                   and    BYTE PTR [eax],ah
+203:    20 20                   and    BYTE PTR [eax],ah
+205:    20 20                   and    BYTE PTR [eax],ah
+207:    20 20                   and    BYTE PTR [eax],ah
+209:    20 20                   and    BYTE PTR [eax],ah
+20b:    20 20                   and    BYTE PTR [eax],ah
+20d:    20 20                   and    BYTE PTR [eax],ah
+20f:    20 20                   and    BYTE PTR [eax],ah
+211:    20 20                   and    BYTE PTR [eax],ah
+213:    20 20                   and    BYTE PTR [eax],ah
+215:    20 20                   and    BYTE PTR [eax],ah
+217:    20 20                   and    BYTE PTR [eax],ah
+219:    20 20                   and    BYTE PTR [eax],ah
+21b:    20 20                   and    BYTE PTR [eax],ah
+21d:    20 20                   and    BYTE PTR [eax],ah
+21f:    20 20                   and    BYTE PTR [eax],ah
+221:    20 20                   and    BYTE PTR [eax],ah
+223:    20 20                   and    BYTE PTR [eax],ah
+225:    20 20                   and    BYTE PTR [eax],ah
+227:    20 20                   and    BYTE PTR [eax],ah
+229:    20 20                   and    BYTE PTR [eax],ah
+22b:    20 20                   and    BYTE PTR [eax],ah
+22d:    20 20                   and    BYTE PTR [eax],ah
+22f:    20 20                   and    BYTE PTR [eax],ah
+231:    20 20                   and    BYTE PTR [eax],ah
+233:    20 20                   and    BYTE PTR [eax],ah
+235:    20 20                   and    BYTE PTR [eax],ah
+237:    20 20                   and    BYTE PTR [eax],ah
+239:    20 20                   and    BYTE PTR [eax],ah
+23b:    20 20                   and    BYTE PTR [eax],ah
+23d:    20 20                   and    BYTE PTR [eax],ah
+23f:    0a 32                   or     dh,BYTE PTR [edx]
+241:    34 32                   xor    al,0x32
+243:    35 32 35 32 20          xor    eax,0x20323532
+248:    20 32                   and    BYTE PTR [edx],dh
+24a:    30 20                   xor    BYTE PTR [eax],ah
+24c:    36 41                   ss inc ecx
+24e:    20 41 30                and    BYTE PTR [ecx+0x30],al
+251:    20 30                   and    BYTE PTR [eax],dh
+253:    34 20                   xor    al,0x20
+255:    31 38                   xor    DWORD PTR [eax],edi
+257:    20 36                   and    BYTE PTR [esi],dh
+259:    34 20                   xor    al,0x20
+25b:    43                      inc    ebx
+25c:    45                      inc    ebp
+25d:    20 35 46 20 30 31       and    BYTE PTR ds:0x31302046,dh
+263:    20 31                   and    BYTE PTR [ecx],dh
+265:    30 20                   xor    BYTE PTR [eax],ah
+267:    32 43 20                xor    al,BYTE PTR [ebx+0x20]
+26a:    36 33 20                xor    esp,DWORD PTR ss:[eax]
+26d:    32 36                   xor    dh,BYTE PTR [esi]
+26f:    20 35 46 20 32 41       and    BYTE PTR ds:0x41322046,dh
+275:    20 32                   and    BYTE PTR [edx],dh
+277:    34 20                   xor    al,0x20
+279:    20 20                   and    BYTE PTR [eax],ah
+27b:    20 6a 2e                and    BYTE PTR [edx+0x2e],ch
+27e:    2e 2e 64 2e 5f          cs cs fs cs pop edi
+283:    2e 2e 2c 63             cs cs sub al,0x63
+287:    26 5f                   es pop edi
+289:    2a 24 20                sub    ah,BYTE PTR [eax+eiz*1]
+28c:    20 20                   and    BYTE PTR [eax],ah
+28e:    20 20                   and    BYTE PTR [eax],ah
+290:    20 20                   and    BYTE PTR [eax],ah
+292:    20 20                   and    BYTE PTR [eax],ah
+294:    20 20                   and    BYTE PTR [eax],ah
+296:    20 20                   and    BYTE PTR [eax],ah
+298:    20 20                   and    BYTE PTR [eax],ah
+29a:    20 20                   and    BYTE PTR [eax],ah
+29c:    20 20                   and    BYTE PTR [eax],ah
+29e:    20 20                   and    BYTE PTR [eax],ah
+2a0:    20 20                   and    BYTE PTR [eax],ah
+2a2:    20 20                   and    BYTE PTR [eax],ah
+2a4:    20 20                   and    BYTE PTR [eax],ah
+2a6:    20 20                   and    BYTE PTR [eax],ah
+2a8:    20 20                   and    BYTE PTR [eax],ah
+2aa:    20 20                   and    BYTE PTR [eax],ah
+2ac:    20 20                   and    BYTE PTR [eax],ah
+2ae:    20 20                   and    BYTE PTR [eax],ah
+2b0:    20 20                   and    BYTE PTR [eax],ah
+2b2:    20 20                   and    BYTE PTR [eax],ah
+2b4:    20 20                   and    BYTE PTR [eax],ah
+2b6:    20 20                   and    BYTE PTR [eax],ah
+2b8:    20 20                   and    BYTE PTR [eax],ah
+2ba:    20 20                   and    BYTE PTR [eax],ah
+2bc:    20 20                   and    BYTE PTR [eax],ah
+2be:    20 20                   and    BYTE PTR [eax],ah
+2c0:    20 20                   and    BYTE PTR [eax],ah
+2c2:    20 20                   and    BYTE PTR [eax],ah
+2c4:    20 20                   and    BYTE PTR [eax],ah
+2c6:    20 20                   and    BYTE PTR [eax],ah
+2c8:    20 20                   and    BYTE PTR [eax],ah
+2ca:    20 20                   and    BYTE PTR [eax],ah
+2cc:    20 20                   and    BYTE PTR [eax],ah
+2ce:    20 0a                   and    BYTE PTR [edx],cl
+2d0:    32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+2d3:    35 32 37 32 20          xor    eax,0x20323732
+2d8:    20 30                   and    BYTE PTR [eax],dh
+2da:    31 20                   xor    DWORD PTR [eax],esp
+2dc:    32 31                   xor    dh,BYTE PTR [ecx]
+2de:    20 37                   and    BYTE PTR [edi],dh
+2e0:    34 20                   xor    al,0x20
+2e2:    34 36                   xor    al,0x36
+2e4:    20 33                   and    BYTE PTR [ebx],dh
+2e6:    34 20                   xor    al,0x20
+2e8:    37                      aaa
+2e9:    30 20                   xor    BYTE PTR [eax],ah
+2eb:    32 31                   xor    dh,BYTE PTR [ecx]
+2ed:    20 30                   and    BYTE PTR [eax],dh
+2ef:    37                      aaa
+2f0:    20 37                   and    BYTE PTR [edi],dh
+2f2:    39 20                   cmp    DWORD PTR [eax],esp
+2f4:    33 35 20 35 33 20       xor    esi,DWORD PTR ds:0x20333520
+2fa:    30 30                   xor    BYTE PTR [eax],dh
+2fc:    20 32                   and    BYTE PTR [edx],dh
+2fe:    43                      inc    ebx
+2ff:    20 34 32                and    BYTE PTR [edx+esi*1],dh
+302:    20 36                   and    BYTE PTR [esi],dh
+304:    41                      inc    ecx
+305:    20 37                   and    BYTE PTR [edi],dh
+307:    30 20                   xor    BYTE PTR [eax],ah
+309:    20 20                   and    BYTE PTR [eax],ah
+30b:    2e 21 74 46 34          and    DWORD PTR cs:[esi+eax*2+0x34],esi
+310:    70 21                   jo     0x333
+312:    2e 79 35                cs jns 0x34a
+315:    53                      push   ebx
+316:    2e 2c 42                cs sub al,0x42
+319:    6a 70                   push   0x70
+31b:    20 20                   and    BYTE PTR [eax],ah
+31d:    20 20                   and    BYTE PTR [eax],ah
+31f:    20 20                   and    BYTE PTR [eax],ah
+321:    20 20                   and    BYTE PTR [eax],ah
+323:    20 20                   and    BYTE PTR [eax],ah
+325:    20 20                   and    BYTE PTR [eax],ah
+327:    20 20                   and    BYTE PTR [eax],ah
+329:    20 20                   and    BYTE PTR [eax],ah
+32b:    20 20                   and    BYTE PTR [eax],ah
+32d:    20 20                   and    BYTE PTR [eax],ah
+32f:    20 20                   and    BYTE PTR [eax],ah
+331:    20 20                   and    BYTE PTR [eax],ah
+333:    20 20                   and    BYTE PTR [eax],ah
+335:    20 20                   and    BYTE PTR [eax],ah
+337:    20 20                   and    BYTE PTR [eax],ah
+339:    20 20                   and    BYTE PTR [eax],ah
+33b:    20 20                   and    BYTE PTR [eax],ah
+33d:    20 20                   and    BYTE PTR [eax],ah
+33f:    20 20                   and    BYTE PTR [eax],ah
+341:    20 20                   and    BYTE PTR [eax],ah
+343:    20 20                   and    BYTE PTR [eax],ah
+345:    20 20                   and    BYTE PTR [eax],ah
+347:    20 20                   and    BYTE PTR [eax],ah
+349:    20 20                   and    BYTE PTR [eax],ah
+34b:    20 20                   and    BYTE PTR [eax],ah
+34d:    20 20                   and    BYTE PTR [eax],ah
+34f:    20 20                   and    BYTE PTR [eax],ah
+351:    20 20                   and    BYTE PTR [eax],ah
+353:    20 20                   and    BYTE PTR [eax],ah
+355:    20 20                   and    BYTE PTR [eax],ah
+357:    20 20                   and    BYTE PTR [eax],ah
+359:    20 20                   and    BYTE PTR [eax],ah
+35b:    20 20                   and    BYTE PTR [eax],ah
+35d:    20 20                   and    BYTE PTR [eax],ah
+35f:    0a 32                   or     dh,BYTE PTR [edx]
+361:    34 32                   xor    al,0x32
+363:    35 33 31 32 20          xor    eax,0x20323133
+368:    20 30                   and    BYTE PTR [eax],dh
+36a:    31 20                   xor    DWORD PTR [eax],esp
+36c:    36 34 20                ss xor al,0x20
+36f:    32 45 20                xor    al,BYTE PTR [ebp+0x20]
+372:    34 45                   xor    al,0x45
+374:    20 38                   and    BYTE PTR [eax],bh
+376:    30 20                   xor    BYTE PTR [eax],ah
+378:    36 42                   ss inc edx
+37a:    20 30                   and    BYTE PTR [eax],dh
+37c:    41                      inc    ecx
+37d:    20 38                   and    BYTE PTR [eax],bh
+37f:    34 20                   xor    al,0x20
+381:    38 35 20 39 41 20       cmp    BYTE PTR ds:0x20413920,dh
+387:    41                      inc    ecx
+388:    32 20                   xor    ah,BYTE PTR [eax]
+38a:    42                      inc    edx
+38b:    33 20                   xor    esp,DWORD PTR [eax]
+38d:    30 30                   xor    BYTE PTR [eax],dh
+38f:    20 33                   and    BYTE PTR [ebx],dh
+391:    34 20                   xor    al,0x20
+393:    32 35 20 34 36 20       xor    dh,BYTE PTR ds:0x20363420
+399:    20 20                   and    BYTE PTR [eax],ah
+39b:    2e 64 2e 4e             cs fs cs dec esi
+39f:    2e 6b 2e 2e             imul   ebp,DWORD PTR cs:[esi],0x2e
+3a3:    2e 2e 2e 2e 2e 34 25    cs cs cs cs cs xor al,0x25
+3aa:    46                      inc    esi
+3ab:    20 20                   and    BYTE PTR [eax],ah
+3ad:    20 20                   and    BYTE PTR [eax],ah
+3af:    20 20                   and    BYTE PTR [eax],ah
+3b1:    20 20                   and    BYTE PTR [eax],ah
+3b3:    20 20                   and    BYTE PTR [eax],ah
+3b5:    20 20                   and    BYTE PTR [eax],ah
+3b7:    20 20                   and    BYTE PTR [eax],ah
+3b9:    20 20                   and    BYTE PTR [eax],ah
+3bb:    20 20                   and    BYTE PTR [eax],ah
+3bd:    20 20                   and    BYTE PTR [eax],ah
+3bf:    20 20                   and    BYTE PTR [eax],ah
+3c1:    20 20                   and    BYTE PTR [eax],ah
+3c3:    20 20                   and    BYTE PTR [eax],ah
+3c5:    20 20                   and    BYTE PTR [eax],ah
+3c7:    20 20                   and    BYTE PTR [eax],ah
+3c9:    20 20                   and    BYTE PTR [eax],ah
+3cb:    20 20                   and    BYTE PTR [eax],ah
+3cd:    20 20                   and    BYTE PTR [eax],ah
+3cf:    20 20                   and    BYTE PTR [eax],ah
+3d1:    20 20                   and    BYTE PTR [eax],ah
+3d3:    20 20                   and    BYTE PTR [eax],ah
+3d5:    20 20                   and    BYTE PTR [eax],ah
+3d7:    20 20                   and    BYTE PTR [eax],ah
+3d9:    20 20                   and    BYTE PTR [eax],ah
+3db:    20 20                   and    BYTE PTR [eax],ah
+3dd:    20 20                   and    BYTE PTR [eax],ah
+3df:    20 20                   and    BYTE PTR [eax],ah
+3e1:    20 20                   and    BYTE PTR [eax],ah
+3e3:    20 20                   and    BYTE PTR [eax],ah
+3e5:    20 20                   and    BYTE PTR [eax],ah
+3e7:    20 20                   and    BYTE PTR [eax],ah
+3e9:    20 20                   and    BYTE PTR [eax],ah
+3eb:    20 20                   and    BYTE PTR [eax],ah
+3ed:    20 20                   and    BYTE PTR [eax],ah
+3ef:    0a 32                   or     dh,BYTE PTR [edx]
+3f1:    34 32                   xor    al,0x32
+3f3:    35 33 33 32 20          xor    eax,0x20323333
+3f8:    20 32                   and    BYTE PTR [edx],dh
+3fa:    34 20                   xor    al,0x20
+3fc:    30 31                   xor    BYTE PTR [ecx],dh
+3fe:    20 30                   and    BYTE PTR [eax],dh
+400:    39 20                   cmp    DWORD PTR [eax],esp
+402:    39 34 20                cmp    DWORD PTR [eax+eiz*1],esi
+405:    34 44                   xor    al,0x44
+407:    20 34 31                and    BYTE PTR [ecx+esi*1],dh
+40a:    20 30                   and    BYTE PTR [eax],dh
+40c:    34 20                   xor    al,0x20
+40e:    32 32                   xor    dh,BYTE PTR [edx]
+410:    20 32                   and    BYTE PTR [edx],dh
+412:    31 20                   xor    DWORD PTR [eax],esp
+414:    41                      inc    ecx
+415:    36 20 36                and    BYTE PTR ss:[esi],dh
+418:    31 20                   xor    DWORD PTR [eax],esp
+41a:    44                      inc    esp
+41b:    33 20                   xor    esp,DWORD PTR [eax]
+41d:    33 30                   xor    esi,DWORD PTR [eax]
+41f:    20 30                   and    BYTE PTR [eax],dh
+421:    31 20                   xor    DWORD PTR [eax],esp
+423:    37                      aaa
+424:    30 20                   xor    BYTE PTR [eax],ah
+426:    33 46 20                xor    eax,DWORD PTR [esi+0x20]
+429:    20 20                   and    BYTE PTR [eax],ah
+42b:    24 2e                   and    al,0x2e
+42d:    2e 2e 4d                cs cs dec ebp
+430:    41                      inc    ecx
+431:    2e 22 21                and    ah,BYTE PTR cs:[ecx]
+434:    2e 61                   cs popa
+436:    2e 30 2e                xor    BYTE PTR cs:[esi],ch
+439:    70 3f                   jo     0x47a
+43b:    20 20                   and    BYTE PTR [eax],ah
+43d:    20 20                   and    BYTE PTR [eax],ah
+43f:    20 20                   and    BYTE PTR [eax],ah
+441:    20 20                   and    BYTE PTR [eax],ah
+443:    20 20                   and    BYTE PTR [eax],ah
+445:    20 20                   and    BYTE PTR [eax],ah
+447:    20 20                   and    BYTE PTR [eax],ah
+449:    20 20                   and    BYTE PTR [eax],ah
+44b:    20 20                   and    BYTE PTR [eax],ah
+44d:    20 20                   and    BYTE PTR [eax],ah
+44f:    20 20                   and    BYTE PTR [eax],ah
+451:    20 20                   and    BYTE PTR [eax],ah
+453:    20 20                   and    BYTE PTR [eax],ah
+455:    20 20                   and    BYTE PTR [eax],ah
+457:    20 20                   and    BYTE PTR [eax],ah
+459:    20 20                   and    BYTE PTR [eax],ah
+45b:    20 20                   and    BYTE PTR [eax],ah
+45d:    20 20                   and    BYTE PTR [eax],ah
+45f:    20 20                   and    BYTE PTR [eax],ah
+461:    20 20                   and    BYTE PTR [eax],ah
+463:    20 20                   and    BYTE PTR [eax],ah
+465:    20 20                   and    BYTE PTR [eax],ah
+467:    20 20                   and    BYTE PTR [eax],ah
+469:    20 20                   and    BYTE PTR [eax],ah
+46b:    20 20                   and    BYTE PTR [eax],ah
+46d:    20 20                   and    BYTE PTR [eax],ah
+46f:    20 20                   and    BYTE PTR [eax],ah
+471:    20 20                   and    BYTE PTR [eax],ah
+473:    20 20                   and    BYTE PTR [eax],ah
+475:    20 20                   and    BYTE PTR [eax],ah
+477:    20 20                   and    BYTE PTR [eax],ah
+479:    20 20                   and    BYTE PTR [eax],ah
+47b:    20 20                   and    BYTE PTR [eax],ah
+47d:    20 20                   and    BYTE PTR [eax],ah
+47f:    0a 32                   or     dh,BYTE PTR [edx]
+481:    34 32                   xor    al,0x32
+483:    35 33 35 32 20          xor    eax,0x20323533
+488:    20 37                   and    BYTE PTR [edi],dh
+48a:    32 20                   xor    ah,BYTE PTR [eax]
+48c:    39 33                   cmp    DWORD PTR [ebx],esi
+48e:    20 31                   and    BYTE PTR [ecx],dh
+490:    37                      aaa
+491:    20 31                   and    BYTE PTR [ecx],dh
+493:    39 20                   cmp    DWORD PTR [eax],esp
+495:    30 30                   xor    BYTE PTR [eax],dh
+497:    20 46 37                and    BYTE PTR [esi+0x37],al
+49a:    20 33                   and    BYTE PTR [ebx],dh
+49c:    41                      inc    ecx
+49d:    20 36                   and    BYTE PTR [esi],dh
+49f:    43                      inc    ebx
+4a0:    20 30                   and    BYTE PTR [eax],dh
+4a2:    30 20                   xor    BYTE PTR [eax],ah
+4a4:    33 43 20                xor    eax,DWORD PTR [ebx+0x20]
+4a7:    31 43 20                xor    DWORD PTR [ebx+0x20],eax
+4aa:    43                      inc    ebx
+4ab:    38 20                   cmp    BYTE PTR [eax],ah
+4ad:    34 30                   xor    al,0x30
+4af:    20 30                   and    BYTE PTR [eax],dh
+4b1:    31 20                   xor    DWORD PTR [eax],esp
+4b3:    32 32                   xor    dh,BYTE PTR [edx]
+4b5:    20 34 41                and    BYTE PTR [ecx+eax*2],dh
+4b8:    20 20                   and    BYTE PTR [eax],ah
+4ba:    20 72 2e                and    BYTE PTR [edx+0x2e],dh
+4bd:    2e 2e 2e 2e 3a 6c 2e    cs cs cs cmp ch,BYTE PTR cs:[esi+ebp*1+0x3c]
+4c4:    3c
+4c5:    2e 2e 40                cs cs inc eax
+4c8:    2e 22 4a 20             and    cl,BYTE PTR cs:[edx+0x20]
+4cc:    20 20                   and    BYTE PTR [eax],ah
+4ce:    20 20                   and    BYTE PTR [eax],ah
+4d0:    20 20                   and    BYTE PTR [eax],ah
+4d2:    20 20                   and    BYTE PTR [eax],ah
+4d4:    20 20                   and    BYTE PTR [eax],ah
+4d6:    20 20                   and    BYTE PTR [eax],ah
+4d8:    20 20                   and    BYTE PTR [eax],ah
+4da:    20 20                   and    BYTE PTR [eax],ah
+4dc:    20 20                   and    BYTE PTR [eax],ah
+4de:    20 20                   and    BYTE PTR [eax],ah
+4e0:    20 20                   and    BYTE PTR [eax],ah
+4e2:    20 20                   and    BYTE PTR [eax],ah
+4e4:    20 20                   and    BYTE PTR [eax],ah
+4e6:    20 20                   and    BYTE PTR [eax],ah
+4e8:    20 20                   and    BYTE PTR [eax],ah
+4ea:    20 20                   and    BYTE PTR [eax],ah
+4ec:    20 20                   and    BYTE PTR [eax],ah
+4ee:    20 20                   and    BYTE PTR [eax],ah
+4f0:    20 20                   and    BYTE PTR [eax],ah
+4f2:    20 20                   and    BYTE PTR [eax],ah
+4f4:    20 20                   and    BYTE PTR [eax],ah
+4f6:    20 20                   and    BYTE PTR [eax],ah
+4f8:    20 20                   and    BYTE PTR [eax],ah
+4fa:    20 20                   and    BYTE PTR [eax],ah
+4fc:    20 20                   and    BYTE PTR [eax],ah
+4fe:    20 20                   and    BYTE PTR [eax],ah
+500:    20 20                   and    BYTE PTR [eax],ah
+502:    20 20                   and    BYTE PTR [eax],ah
+504:    20 20                   and    BYTE PTR [eax],ah
+506:    20 20                   and    BYTE PTR [eax],ah
+508:    20 20                   and    BYTE PTR [eax],ah
+50a:    20 20                   and    BYTE PTR [eax],ah
+50c:    20 20                   and    BYTE PTR [eax],ah
+50e:    20 0a                   and    BYTE PTR [edx],cl
+510:    32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+513:    35 33 37 32 20          xor    eax,0x20323733
+518:    20 31                   and    BYTE PTR [ecx],dh
+51a:    36 20 38                and    BYTE PTR ss:[eax],bh
+51d:    35 20 45 34 20          xor    eax,0x20344520
+522:    41                      inc    ecx
+523:    35 20 34 31 20          xor    eax,0x20313420
+528:    30 32                   xor    BYTE PTR [edx],dh
+52a:    20 39                   and    BYTE PTR [ecx],bh
+52c:    45                      inc    ebp
+52d:    20 35 31 20 34 31       and    BYTE PTR ds:0x31342031,dh
+533:    20 34 35 20 30 32 20    and    BYTE PTR [esi*1+0x20323020],dh
+53a:    34 44                   xor    al,0x44
+53c:    20 34 36                and    BYTE PTR [esi+esi*1],dh
+53f:    20 30                   and    BYTE PTR [eax],dh
+541:    32 20                   xor    ah,BYTE PTR [eax]
+543:    36 41                   ss inc ecx
+545:    20 43 39                and    BYTE PTR [ebx+0x39],al
+548:    20 20                   and    BYTE PTR [eax],ah
+54a:    20 2e                   and    BYTE PTR [esi],ch
+54c:    2e 2e 2e 41             cs cs cs inc ecx
+550:    2e 2e 51                cs cs push ecx
+553:    41                      inc    ecx
+554:    45                      inc    ebp
+555:    2e 4d                   cs dec ebp
+557:    46                      inc    esi
+558:    2e 6a 2e                cs push 0x2e
+55b:    20 20                   and    BYTE PTR [eax],ah
+55d:    20 20                   and    BYTE PTR [eax],ah
+55f:    20 20                   and    BYTE PTR [eax],ah
+561:    20 20                   and    BYTE PTR [eax],ah
+563:    20 20                   and    BYTE PTR [eax],ah
+565:    20 20                   and    BYTE PTR [eax],ah
+567:    20 20                   and    BYTE PTR [eax],ah
+569:    20 20                   and    BYTE PTR [eax],ah
+56b:    20 20                   and    BYTE PTR [eax],ah
+56d:    20 20                   and    BYTE PTR [eax],ah
+56f:    20 20                   and    BYTE PTR [eax],ah
+571:    20 20                   and    BYTE PTR [eax],ah
+573:    20 20                   and    BYTE PTR [eax],ah
+575:    20 20                   and    BYTE PTR [eax],ah
+577:    20 20                   and    BYTE PTR [eax],ah
+579:    20 20                   and    BYTE PTR [eax],ah
+57b:    20 20                   and    BYTE PTR [eax],ah
+57d:    20 20                   and    BYTE PTR [eax],ah
+57f:    20 20                   and    BYTE PTR [eax],ah
+581:    20 20                   and    BYTE PTR [eax],ah
+583:    20 20                   and    BYTE PTR [eax],ah
+585:    20 20                   and    BYTE PTR [eax],ah
+587:    20 20                   and    BYTE PTR [eax],ah
+589:    20 20                   and    BYTE PTR [eax],ah
+58b:    20 20                   and    BYTE PTR [eax],ah
+58d:    20 20                   and    BYTE PTR [eax],ah
+58f:    20 20                   and    BYTE PTR [eax],ah
+591:    20 20                   and    BYTE PTR [eax],ah
+593:    20 20                   and    BYTE PTR [eax],ah
+595:    20 20                   and    BYTE PTR [eax],ah
+597:    20 20                   and    BYTE PTR [eax],ah
+599:    20 20                   and    BYTE PTR [eax],ah
+59b:    20 20                   and    BYTE PTR [eax],ah
+59d:    20 20                   and    BYTE PTR [eax],ah
+59f:    0a 32                   or     dh,BYTE PTR [edx]
+5a1:    34 32                   xor    al,0x32
+5a3:    35 34 31 32 20          xor    eax,0x20323134
+5a8:    20 45 30                and    BYTE PTR [ebp+0x30],al
+5ab:    20 31                   and    BYTE PTR [ecx],dh
+5ad:    46                      inc    esi
+5ae:    20 39                   and    BYTE PTR [ecx],bh
+5b0:    38 20                   cmp    BYTE PTR [eax],ah
+5b2:    31 44 20 36             xor    DWORD PTR [eax+eiz*1+0x36],eax
+5b6:    41                      inc    ecx
+5b7:    20 30                   and    BYTE PTR [eax],dh
+5b9:    30 20                   xor    BYTE PTR [eax],ah
+5bb:    42                      inc    edx
+5bc:    30 20                   xor    BYTE PTR [eax],ah
+5be:    43                      inc    ebx
+5bf:    31 20                   xor    DWORD PTR [eax],esp
+5c1:    39 35 20 30 32 20       cmp    DWORD PTR ds:0x20323020,esi
+5c7:    32 33                   xor    dh,BYTE PTR [ebx]
+5c9:    20 36                   and    BYTE PTR [esi],dh
+5cb:    35 20 34 42 20          xor    eax,0x20423420
+5d0:    30 30                   xor    BYTE PTR [eax],dh
+5d2:    20 43 41                and    BYTE PTR [ebx+0x41],al
+5d5:    20 45 30                and    BYTE PTR [ebp+0x30],al
+5d8:    20 20                   and    BYTE PTR [eax],ah
+5da:    20 2e                   and    BYTE PTR [esi],ch
+5dc:    2e 2e 2e 6a 2e          cs cs cs push 0x2e
+5e1:    2e 2e 2e 2e 23 65 4b    cs cs cs and esp,DWORD PTR cs:[ebp+0x4b]
+5e8:    2e 2e 2e 20 20          cs cs and BYTE PTR cs:[eax],ah
+5ed:    20 20                   and    BYTE PTR [eax],ah
+5ef:    20 20                   and    BYTE PTR [eax],ah
+5f1:    20 20                   and    BYTE PTR [eax],ah
+5f3:    20 20                   and    BYTE PTR [eax],ah
+5f5:    20 20                   and    BYTE PTR [eax],ah
+5f7:    20 20                   and    BYTE PTR [eax],ah
+5f9:    20 20                   and    BYTE PTR [eax],ah
+5fb:    20 20                   and    BYTE PTR [eax],ah
+5fd:    20 20                   and    BYTE PTR [eax],ah
+5ff:    20 20                   and    BYTE PTR [eax],ah
+601:    20 20                   and    BYTE PTR [eax],ah
+603:    20 20                   and    BYTE PTR [eax],ah
+605:    20 20                   and    BYTE PTR [eax],ah
+607:    20 20                   and    BYTE PTR [eax],ah
+609:    20 20                   and    BYTE PTR [eax],ah
+60b:    20 20                   and    BYTE PTR [eax],ah
+60d:    20 20                   and    BYTE PTR [eax],ah
+60f:    20 20                   and    BYTE PTR [eax],ah
+611:    20 20                   and    BYTE PTR [eax],ah
+613:    20 20                   and    BYTE PTR [eax],ah
+615:    20 20                   and    BYTE PTR [eax],ah
+617:    20 20                   and    BYTE PTR [eax],ah
+619:    20 20                   and    BYTE PTR [eax],ah
+61b:    20 20                   and    BYTE PTR [eax],ah
+61d:    20 20                   and    BYTE PTR [eax],ah
+61f:    20 20                   and    BYTE PTR [eax],ah
+621:    20 20                   and    BYTE PTR [eax],ah
+623:    20 20                   and    BYTE PTR [eax],ah
+625:    20 20                   and    BYTE PTR [eax],ah
+627:    20 20                   and    BYTE PTR [eax],ah
+629:    20 20                   and    BYTE PTR [eax],ah
+62b:    20 20                   and    BYTE PTR [eax],ah
+62d:    20 20                   and    BYTE PTR [eax],ah
+62f:    0a 32                   or     dh,BYTE PTR [edx]
+631:    34 32                   xor    al,0x32
+633:    35 34 33 32 20          xor    eax,0x20323334
+638:    20 31                   and    BYTE PTR [ecx],dh
+63a:    37                      aaa
+63b:    20 33                   and    BYTE PTR [ebx],dh
+63d:    33 20                   xor    esp,DWORD PTR [eax]
+63f:    30 38                   xor    BYTE PTR [eax],bh
+641:    20 36                   and    BYTE PTR [esi],dh
+643:    41                      inc    ecx
+644:    20 30                   and    BYTE PTR [eax],dh
+646:    31 20                   xor    DWORD PTR [eax],esp
+648:    30 30                   xor    BYTE PTR [eax],dh
+64a:    20 34 31                and    BYTE PTR [ecx+esi*1],dh
+64d:    20 34 35 20 30 33 20    and    BYTE PTR [esi*1+0x20333020],dh
+654:    30 30                   xor    BYTE PTR [eax],dh
+656:    20 34 42                and    BYTE PTR [edx+eax*2],dh
+659:    20 42 32                and    BYTE PTR [edx+0x32],al
+65c:    20 30                   and    BYTE PTR [eax],dh
+65e:    30 20                   xor    BYTE PTR [eax],ah
+660:    36 42                   ss inc edx
+662:    20 30                   and    BYTE PTR [eax],dh
+664:    41                      inc    ecx
+665:    20 37                   and    BYTE PTR [edi],dh
+667:    43                      inc    ebx
+668:    20 20                   and    BYTE PTR [eax],ah
+66a:    20 2e                   and    BYTE PTR [esi],ch
+66c:    33 2e                   xor    ebp,DWORD PTR [esi]
+66e:    6a 2e                   push   0x2e
+670:    2e 41                   cs inc ecx
+672:    45                      inc    ebp
+673:    2e 2e 4b                cs cs dec ebx
+676:    2e 2e 6b 2e 7c          cs imul ebp,DWORD PTR cs:[esi],0x7c
+67b:    20 20                   and    BYTE PTR [eax],ah
+67d:    20 20                   and    BYTE PTR [eax],ah
+67f:    20 20                   and    BYTE PTR [eax],ah
+681:    20 20                   and    BYTE PTR [eax],ah
+683:    20 20                   and    BYTE PTR [eax],ah
+685:    20 20                   and    BYTE PTR [eax],ah
+687:    20 20                   and    BYTE PTR [eax],ah
+689:    20 20                   and    BYTE PTR [eax],ah
+68b:    20 20                   and    BYTE PTR [eax],ah
+68d:    20 20                   and    BYTE PTR [eax],ah
+68f:    20 20                   and    BYTE PTR [eax],ah
+691:    20 20                   and    BYTE PTR [eax],ah
+693:    20 20                   and    BYTE PTR [eax],ah
+695:    20 20                   and    BYTE PTR [eax],ah
+697:    20 20                   and    BYTE PTR [eax],ah
+699:    20 20                   and    BYTE PTR [eax],ah
+69b:    20 20                   and    BYTE PTR [eax],ah
+69d:    20 20                   and    BYTE PTR [eax],ah
+69f:    20 20                   and    BYTE PTR [eax],ah
+6a1:    20 20                   and    BYTE PTR [eax],ah
+6a3:    20 20                   and    BYTE PTR [eax],ah
+6a5:    20 20                   and    BYTE PTR [eax],ah
+6a7:    20 20                   and    BYTE PTR [eax],ah
+6a9:    20 20                   and    BYTE PTR [eax],ah
+6ab:    20 20                   and    BYTE PTR [eax],ah
+6ad:    20 20                   and    BYTE PTR [eax],ah
+6af:    20 20                   and    BYTE PTR [eax],ah
+6b1:    20 20                   and    BYTE PTR [eax],ah
+6b3:    20 20                   and    BYTE PTR [eax],ah
+6b5:    20 20                   and    BYTE PTR [eax],ah
+6b7:    20 20                   and    BYTE PTR [eax],ah
+6b9:    20 20                   and    BYTE PTR [eax],ah
+6bb:    20 20                   and    BYTE PTR [eax],ah
+6bd:    20 20                   and    BYTE PTR [eax],ah
+6bf:    0a 32                   or     dh,BYTE PTR [edx]
+6c1:    34 32                   xor    al,0x32
+6c3:    35 34 35 32 20          xor    eax,0x20323534
+6c8:    20 32                   and    BYTE PTR [edx],dh
+6ca:    38 20                   cmp    BYTE PTR [eax],ah
+6cc:    44                      inc    esp
+6cd:    37                      aaa
+6ce:    20 45 30                and    BYTE PTR [ebp+0x30],al
+6d1:    20 41 35                and    BYTE PTR [ecx+0x35],al
+6d4:    20 41 44                and    BYTE PTR [ecx+0x44],al
+6d7:    20 31                   and    BYTE PTR [ecx],dh
+6d9:    38 20                   cmp    BYTE PTR [eax],ah
+6db:    42                      inc    edx
+6dc:    32 20                   xor    ah,BYTE PTR [eax]
+6de:    30 34 20                xor    BYTE PTR [eax+eiz*1],dh
+6e1:    32 32                   xor    dh,BYTE PTR [edx]
+6e3:    20 33                   and    BYTE PTR [ebx],dh
+6e5:    39 20                   cmp    DWORD PTR [eax],esp
+6e7:    35 42 20 32 41          xor    eax,0x41322042
+6ec:    20 46 45                and    BYTE PTR [esi+0x45],al
+6ef:    20 30                   and    BYTE PTR [eax],dh
+6f1:    39 20                   cmp    DWORD PTR [eax],esp
+6f3:    42                      inc    edx
+6f4:    30 20                   xor    BYTE PTR [eax],ah
+6f6:    34 45                   xor    al,0x45
+6f8:    20 20                   and    BYTE PTR [eax],ah
+6fa:    20 28                   and    BYTE PTR [eax],ch
+6fc:    2e 2e 2e 2e 2e 2e 2e    cs cs cs cs cs cs and bh,BYTE PTR cs:[ecx]
+703:    22 39
+705:    5b                      pop    ebx
+706:    2a 2e                   sub    ch,BYTE PTR [esi]
+708:    2e 2e 4e                cs cs dec esi
+70b:    20 20                   and    BYTE PTR [eax],ah
+70d:    20 20                   and    BYTE PTR [eax],ah
+70f:    20 20                   and    BYTE PTR [eax],ah
+711:    20 20                   and    BYTE PTR [eax],ah
+713:    20 20                   and    BYTE PTR [eax],ah
+715:    20 20                   and    BYTE PTR [eax],ah
+717:    20 20                   and    BYTE PTR [eax],ah
+719:    20 20                   and    BYTE PTR [eax],ah
+71b:    20 20                   and    BYTE PTR [eax],ah
+71d:    20 20                   and    BYTE PTR [eax],ah
+71f:    20 20                   and    BYTE PTR [eax],ah
+721:    20 20                   and    BYTE PTR [eax],ah
+723:    20 20                   and    BYTE PTR [eax],ah
+725:    20 20                   and    BYTE PTR [eax],ah
+727:    20 20                   and    BYTE PTR [eax],ah
+729:    20 20                   and    BYTE PTR [eax],ah
+72b:    20 20                   and    BYTE PTR [eax],ah
+72d:    20 20                   and    BYTE PTR [eax],ah
+72f:    20 20                   and    BYTE PTR [eax],ah
+731:    20 20                   and    BYTE PTR [eax],ah
+733:    20 20                   and    BYTE PTR [eax],ah
+735:    20 20                   and    BYTE PTR [eax],ah
+737:    20 20                   and    BYTE PTR [eax],ah
+739:    20 20                   and    BYTE PTR [eax],ah
+73b:    20 20                   and    BYTE PTR [eax],ah
+73d:    20 20                   and    BYTE PTR [eax],ah
+73f:    20 20                   and    BYTE PTR [eax],ah
+741:    20 20                   and    BYTE PTR [eax],ah
+743:    20 20                   and    BYTE PTR [eax],ah
+745:    20 20                   and    BYTE PTR [eax],ah
+747:    20 20                   and    BYTE PTR [eax],ah
+749:    20 20                   and    BYTE PTR [eax],ah
+74b:    20 20                   and    BYTE PTR [eax],ah
+74d:    20 20                   and    BYTE PTR [eax],ah
+74f:    0a 32                   or     dh,BYTE PTR [edx]
+751:    34 32                   xor    al,0x32
+753:    35 34 37 32 20          xor    eax,0x20323734
+758:    20 39                   and    BYTE PTR [ecx],bh
+75a:    43                      inc    ebx
+75b:    20 36                   and    BYTE PTR [esi],dh
+75d:    30 20                   xor    BYTE PTR [eax],ah
+75f:    41                      inc    ecx
+760:    36 20 30                and    BYTE PTR ss:[eax],dh
+763:    37                      aaa
+764:    20 36                   and    BYTE PTR [esi],dh
+766:    30 20                   xor    BYTE PTR [eax],ah
+768:    36 35 20 41 41 20       ss xor eax,0x20414120
+76e:    34 43                   xor    al,0x43
+770:    20 30                   and    BYTE PTR [eax],dh
+772:    32 20                   xor    ah,BYTE PTR [eax]
+774:    34 46                   xor    al,0x46
+776:    20 30                   and    BYTE PTR [eax],dh
+778:    44                      inc    esp
+779:    20 36                   and    BYTE PTR [esi],dh
+77b:    39 20                   cmp    DWORD PTR [eax],esp
+77d:    32 39                   xor    bh,BYTE PTR [ecx]
+77f:    20 32                   and    BYTE PTR [edx],dh
+781:    41                      inc    ecx
+782:    20 46 38                and    BYTE PTR [esi+0x38],al
+785:    20 30                   and    BYTE PTR [eax],dh
+787:    34 20                   xor    al,0x20
+789:    20 20                   and    BYTE PTR [eax],ah
+78b:    2e 60                   cs pusha
+78d:    2e 2e 60                cs cs pusha
+790:    65 2e 4c                gs cs dec esp
+793:    2e 4f                   cs dec edi
+795:    2e 69 29 2a 2e 2e 20    imul   ebp,DWORD PTR cs:[ecx],0x202e2e2a
+79c:    20 20                   and    BYTE PTR [eax],ah
+79e:    20 20                   and    BYTE PTR [eax],ah
+7a0:    20 20                   and    BYTE PTR [eax],ah
+7a2:    20 20                   and    BYTE PTR [eax],ah
+7a4:    20 20                   and    BYTE PTR [eax],ah
+7a6:    20 20                   and    BYTE PTR [eax],ah
+7a8:    20 20                   and    BYTE PTR [eax],ah
+7aa:    20 20                   and    BYTE PTR [eax],ah
+7ac:    20 20                   and    BYTE PTR [eax],ah
+7ae:    20 20                   and    BYTE PTR [eax],ah
+7b0:    20 20                   and    BYTE PTR [eax],ah
+7b2:    20 20                   and    BYTE PTR [eax],ah
+7b4:    20 20                   and    BYTE PTR [eax],ah
+7b6:    20 20                   and    BYTE PTR [eax],ah
+7b8:    20 20                   and    BYTE PTR [eax],ah
+7ba:    20 20                   and    BYTE PTR [eax],ah
+7bc:    20 20                   and    BYTE PTR [eax],ah
+7be:    20 20                   and    BYTE PTR [eax],ah
+7c0:    20 20                   and    BYTE PTR [eax],ah
+7c2:    20 20                   and    BYTE PTR [eax],ah
+7c4:    20 20                   and    BYTE PTR [eax],ah
+7c6:    20 20                   and    BYTE PTR [eax],ah
+7c8:    20 20                   and    BYTE PTR [eax],ah
+7ca:    20 20                   and    BYTE PTR [eax],ah
+7cc:    20 20                   and    BYTE PTR [eax],ah
+7ce:    20 20                   and    BYTE PTR [eax],ah
+7d0:    20 20                   and    BYTE PTR [eax],ah
+7d2:    20 20                   and    BYTE PTR [eax],ah
+7d4:    20 20                   and    BYTE PTR [eax],ah
+7d6:    20 20                   and    BYTE PTR [eax],ah
+7d8:    20 20                   and    BYTE PTR [eax],ah
+7da:    20 20                   and    BYTE PTR [eax],ah
+7dc:    20 20                   and    BYTE PTR [eax],ah
+7de:    20 0a                   and    BYTE PTR [edx],cl
+7e0:    32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+7e3:    35 35 31 32 20          xor    eax,0x20323135
+7e8:    20 32                   and    BYTE PTR [edx],dh
+7ea:    35 20 45 34 20          xor    eax,0x20344520
+7ef:    35 32 20 39 41          xor    eax,0x41392032
+7f4:    20 32                   and    BYTE PTR [edx],dh
+7f6:    33 20                   xor    esp,DWORD PTR [eax]
+7f8:    42                      inc    edx
+7f9:    33 20                   xor    esp,DWORD PTR [eax]
+7fb:    32 42 20                xor    al,BYTE PTR [edx+0x20]
+7fe:    30 30                   xor    BYTE PTR [eax],dh
+800:    20 31                   and    BYTE PTR [ecx],dh
+802:    37                      aaa
+803:    20 38                   and    BYTE PTR [eax],bh
+805:    35 20 37 30 20          xor    eax,0x20303720
+80a:    31 41 20                xor    DWORD PTR [ecx+0x20],eax
+80d:    33 31                   xor    esi,DWORD PTR [ecx]
+80f:    20 41 33                and    BYTE PTR [ecx+0x33],al
+812:    20 33                   and    BYTE PTR [ebx],dh
+814:    30 20                   xor    BYTE PTR [eax],ah
+816:    42                      inc    edx
+817:    43                      inc    ebx
+818:    20 20                   and    BYTE PTR [eax],ah
+81a:    20 25 2e 52 2e 23       and    BYTE PTR ds:0x232e522e,ah
+820:    2e 2b 2e                sub    ebp,DWORD PTR cs:[esi]
+823:    2e 2e 70 2e             cs cs jo 0x855
+827:    31 2e                   xor    DWORD PTR [esi],ebp
+829:    30 2e                   xor    BYTE PTR [esi],ch
+82b:    20 20                   and    BYTE PTR [eax],ah
+82d:    20 20                   and    BYTE PTR [eax],ah
+82f:    20 20                   and    BYTE PTR [eax],ah
+831:    20 20                   and    BYTE PTR [eax],ah
+833:    20 20                   and    BYTE PTR [eax],ah
+835:    20 20                   and    BYTE PTR [eax],ah
+837:    20 20                   and    BYTE PTR [eax],ah
+839:    20 20                   and    BYTE PTR [eax],ah
+83b:    20 20                   and    BYTE PTR [eax],ah
+83d:    20 20                   and    BYTE PTR [eax],ah
+83f:    20 20                   and    BYTE PTR [eax],ah
+841:    20 20                   and    BYTE PTR [eax],ah
+843:    20 20                   and    BYTE PTR [eax],ah
+845:    20 20                   and    BYTE PTR [eax],ah
+847:    20 20                   and    BYTE PTR [eax],ah
+849:    20 20                   and    BYTE PTR [eax],ah
+84b:    20 20                   and    BYTE PTR [eax],ah
+84d:    20 20                   and    BYTE PTR [eax],ah
+84f:    20 20                   and    BYTE PTR [eax],ah
+851:    20 20                   and    BYTE PTR [eax],ah
+853:    20 20                   and    BYTE PTR [eax],ah
+855:    20 20                   and    BYTE PTR [eax],ah
+857:    20 20                   and    BYTE PTR [eax],ah
+859:    20 20                   and    BYTE PTR [eax],ah
+85b:    20 20                   and    BYTE PTR [eax],ah
+85d:    20 20                   and    BYTE PTR [eax],ah
+85f:    20 20                   and    BYTE PTR [eax],ah
+861:    20 20                   and    BYTE PTR [eax],ah
+863:    20 20                   and    BYTE PTR [eax],ah
+865:    20 20                   and    BYTE PTR [eax],ah
+867:    20 20                   and    BYTE PTR [eax],ah
+869:    20 20                   and    BYTE PTR [eax],ah
+86b:    20 20                   and    BYTE PTR [eax],ah
+86d:    20 20                   and    BYTE PTR [eax],ah
+86f:    0a 32                   or     dh,BYTE PTR [edx]
+871:    34 32                   xor    al,0x32
+873:    35 35 33 32 20          xor    eax,0x20323335
+878:    20 31                   and    BYTE PTR [ecx],dh
+87a:    37                      aaa
+87b:    20 38                   and    BYTE PTR [eax],bh
+87d:    30 20                   xor    BYTE PTR [eax],ah
+87f:    30 35 20 38 38 20       xor    BYTE PTR ds:0x20383820,dh
+885:    35 33 20 35 31          xor    eax,0x31352033
+88a:    20 32                   and    BYTE PTR [edx],dh
+88c:    34 20                   xor    al,0x20
+88e:    30 33                   xor    BYTE PTR [ebx],dh
+890:    20 37                   and    BYTE PTR [edi],dh
+892:    33 20                   xor    esp,DWORD PTR [eax]
+894:    33 34 20                xor    esi,DWORD PTR [eax+eiz*1]
+897:    34 35                   xor    al,0x35
+899:    20 35 37 20 31 42       and    BYTE PTR ds:0x42312037,dh
+89f:    20 32                   and    BYTE PTR [edx],dh
+8a1:    41                      inc    ecx
+8a2:    20 30                   and    BYTE PTR [eax],dh
+8a4:    33 20                   xor    esp,DWORD PTR [eax]
+8a6:    32 44 20 20             xor    al,BYTE PTR [eax+eiz*1+0x20]
+8aa:    20 2e                   and    BYTE PTR [esi],ch
+8ac:    2e 2e 2e 53             cs cs cs push ebx
+8b0:    51                      push   ecx
+8b1:    24 2e                   and    al,0x2e
+8b3:    73 34                   jae    0x8e9
+8b5:    45                      inc    ebp
+8b6:    57                      push   edi
+8b7:    2e 2a 2e                sub    ch,BYTE PTR cs:[esi]
+8ba:    2d 20 20 20 20          sub    eax,0x20202020
+8bf:    20 20                   and    BYTE PTR [eax],ah
+8c1:    20 20                   and    BYTE PTR [eax],ah
+8c3:    20 20                   and    BYTE PTR [eax],ah
+8c5:    20 20                   and    BYTE PTR [eax],ah
+8c7:    20 20                   and    BYTE PTR [eax],ah
+8c9:    20 20                   and    BYTE PTR [eax],ah
+8cb:    20 20                   and    BYTE PTR [eax],ah
+8cd:    20 20                   and    BYTE PTR [eax],ah
+8cf:    20 20                   and    BYTE PTR [eax],ah
+8d1:    20 20                   and    BYTE PTR [eax],ah
+8d3:    20 20                   and    BYTE PTR [eax],ah
+8d5:    20 20                   and    BYTE PTR [eax],ah
+8d7:    20 20                   and    BYTE PTR [eax],ah
+8d9:    20 20                   and    BYTE PTR [eax],ah
+8db:    20 20                   and    BYTE PTR [eax],ah
+8dd:    20 20                   and    BYTE PTR [eax],ah
+8df:    20 20                   and    BYTE PTR [eax],ah
+8e1:    20 20                   and    BYTE PTR [eax],ah
+8e3:    20 20                   and    BYTE PTR [eax],ah
+8e5:    20 20                   and    BYTE PTR [eax],ah
+8e7:    20 20                   and    BYTE PTR [eax],ah
+8e9:    20 20                   and    BYTE PTR [eax],ah
+8eb:    20 20                   and    BYTE PTR [eax],ah
+8ed:    20 20                   and    BYTE PTR [eax],ah
+8ef:    20 20                   and    BYTE PTR [eax],ah
+8f1:    20 20                   and    BYTE PTR [eax],ah
+8f3:    20 20                   and    BYTE PTR [eax],ah
+8f5:    20 20                   and    BYTE PTR [eax],ah
+8f7:    20 20                   and    BYTE PTR [eax],ah
+8f9:    20 20                   and    BYTE PTR [eax],ah
+8fb:    20 20                   and    BYTE PTR [eax],ah
+8fd:    20 20                   and    BYTE PTR [eax],ah
+8ff:    0a 32                   or     dh,BYTE PTR [edx]
+901:    34 32                   xor    al,0x32
+903:    35 35 35 32 20          xor    eax,0x20323535
+908:    20 32                   and    BYTE PTR [edx],dh
+90a:    41                      inc    ecx
+90b:    20 34 35 20 44 30 20    and    BYTE PTR [esi*1+0x20304420],dh
+912:    42                      inc    edx
+913:    39 20                   cmp    DWORD PTR [eax],esp
+915:    42                      inc    edx
+916:    32 20                   xor    ah,BYTE PTR [eax]
+918:    30 30                   xor    BYTE PTR [eax],dh
+91a:    20 43 39                and    BYTE PTR [ebx+0x39],al
+91d:    20 34 39                and    BYTE PTR [ecx+edi*1],dh
+920:    20 44 39 20             and    BYTE PTR [ecx+edi*1+0x20],al
+924:    36 30 20                xor    BYTE PTR ss:[eax],ah
+927:    30 31                   xor    BYTE PTR [ecx],dh
+929:    20 32                   and    BYTE PTR [edx],dh
+92b:    33 20                   xor    esp,DWORD PTR [eax]
+92d:    38 41 20                cmp    BYTE PTR [ecx+0x20],al
+930:    31 41 20                xor    DWORD PTR [ecx+0x20],eax
+933:    45                      inc    ebp
+934:    45                      inc    ebp
+935:    20 43 44                and    BYTE PTR [ebx+0x44],al
+938:    20 20                   and    BYTE PTR [eax],ah
+93a:    20 2a                   and    BYTE PTR [edx],ch
+93c:    45                      inc    ebp
+93d:    2e 2e 2e 2e 2e 49       cs cs cs cs cs dec ecx
+943:    2e 60                   cs pusha
+945:    2e 23 2e                and    ebp,DWORD PTR cs:[esi]
+948:    2e 2e 2e 20 20          cs cs and BYTE PTR cs:[eax],ah
+94d:    20 20                   and    BYTE PTR [eax],ah
+94f:    20 20                   and    BYTE PTR [eax],ah
+951:    20 20                   and    BYTE PTR [eax],ah
+953:    20 20                   and    BYTE PTR [eax],ah
+955:    20 20                   and    BYTE PTR [eax],ah
+957:    20 20                   and    BYTE PTR [eax],ah
+959:    20 20                   and    BYTE PTR [eax],ah
+95b:    20 20                   and    BYTE PTR [eax],ah
+95d:    20 20                   and    BYTE PTR [eax],ah
+95f:    20 20                   and    BYTE PTR [eax],ah
+961:    20 20                   and    BYTE PTR [eax],ah
+963:    20 20                   and    BYTE PTR [eax],ah
+965:    20 20                   and    BYTE PTR [eax],ah
+967:    20 20                   and    BYTE PTR [eax],ah
+969:    20 20                   and    BYTE PTR [eax],ah
+96b:    20 20                   and    BYTE PTR [eax],ah
+96d:    20 20                   and    BYTE PTR [eax],ah
+96f:    20 20                   and    BYTE PTR [eax],ah
+971:    20 20                   and    BYTE PTR [eax],ah
+973:    20 20                   and    BYTE PTR [eax],ah
+975:    20 20                   and    BYTE PTR [eax],ah
+977:    20 20                   and    BYTE PTR [eax],ah
+979:    20 20                   and    BYTE PTR [eax],ah
+97b:    20 20                   and    BYTE PTR [eax],ah
+97d:    20 20                   and    BYTE PTR [eax],ah
+97f:    20 20                   and    BYTE PTR [eax],ah
+981:    20 20                   and    BYTE PTR [eax],ah
+983:    20 20                   and    BYTE PTR [eax],ah
+985:    20 20                   and    BYTE PTR [eax],ah
+987:    20 20                   and    BYTE PTR [eax],ah
+989:    20 20                   and    BYTE PTR [eax],ah
+98b:    20 20                   and    BYTE PTR [eax],ah
+98d:    20 20                   and    BYTE PTR [eax],ah
+98f:    0a 32                   or     dh,BYTE PTR [edx]
+991:    34 32                   xor    al,0x32
+993:    35 35 37 32 20          xor    eax,0x20323735
+998:    20 38                   and    BYTE PTR [eax],bh
+99a:    30 20                   xor    BYTE PTR [eax],ah
+99c:    39 41 20                cmp    DWORD PTR [ecx+0x20],eax
+99f:    32 33                   xor    dh,BYTE PTR [ebx]
+9a1:    20 42 32                and    BYTE PTR [edx+0x32],al
+9a4:    20 32                   and    BYTE PTR [edx],dh
+9a6:    42                      inc    edx
+9a7:    20 30                   and    BYTE PTR [eax],dh
+9a9:    30 20                   xor    BYTE PTR [eax],ah
+9ab:    30 43 20                xor    BYTE PTR [ebx+0x20],al
+9ae:    34 32                   xor    al,0x32
+9b0:    20 35 33 20 32 45       and    BYTE PTR ds:0x45322033,dh
+9b6:    20 34 39                and    BYTE PTR [ecx+edi*1],dh
+9b9:    20 35 38 20 30 34       and    BYTE PTR ds:0x34302038,dh
+9bf:    20 32                   and    BYTE PTR [edx],dh
+9c1:    36 20 43 44             and    BYTE PTR ss:[ebx+0x44],al
+9c5:    20 32                   and    BYTE PTR [edx],dh
+9c7:    35 20 20 20 2e          xor    eax,0x2e202020
+9cc:    2e 23 2e                and    ebp,DWORD PTR cs:[esi]
+9cf:    2b 2e                   sub    ebp,DWORD PTR [esi]
+9d1:    2e 42                   cs inc edx
+9d3:    53                      push   ebx
+9d4:    2e 49                   cs dec ecx
+9d6:    58                      pop    eax
+9d7:    2e 26 2e 25 20 20 20    cs es cs and eax,0x20202020
+9de:    20
+9df:    20 20                   and    BYTE PTR [eax],ah
+9e1:    20 20                   and    BYTE PTR [eax],ah
+9e3:    20 20                   and    BYTE PTR [eax],ah
+9e5:    20 20                   and    BYTE PTR [eax],ah
+9e7:    20 20                   and    BYTE PTR [eax],ah
+9e9:    20 20                   and    BYTE PTR [eax],ah
+9eb:    20 20                   and    BYTE PTR [eax],ah
+9ed:    20 20                   and    BYTE PTR [eax],ah
+9ef:    20 20                   and    BYTE PTR [eax],ah
+9f1:    20 20                   and    BYTE PTR [eax],ah
+9f3:    20 20                   and    BYTE PTR [eax],ah
+9f5:    20 20                   and    BYTE PTR [eax],ah
+9f7:    20 20                   and    BYTE PTR [eax],ah
+9f9:    20 20                   and    BYTE PTR [eax],ah
+9fb:    20 20                   and    BYTE PTR [eax],ah
+9fd:    20 20                   and    BYTE PTR [eax],ah
+9ff:    20 20                   and    BYTE PTR [eax],ah
+a01:    20 20                   and    BYTE PTR [eax],ah
+a03:    20 20                   and    BYTE PTR [eax],ah
+a05:    20 20                   and    BYTE PTR [eax],ah
+a07:    20 20                   and    BYTE PTR [eax],ah
+a09:    20 20                   and    BYTE PTR [eax],ah
+a0b:    20 20                   and    BYTE PTR [eax],ah
+a0d:    20 20                   and    BYTE PTR [eax],ah
+a0f:    20 20                   and    BYTE PTR [eax],ah
+a11:    20 20                   and    BYTE PTR [eax],ah
+a13:    20 20                   and    BYTE PTR [eax],ah
+a15:    20 20                   and    BYTE PTR [eax],ah
+a17:    20 20                   and    BYTE PTR [eax],ah
+a19:    20 20                   and    BYTE PTR [eax],ah
+a1b:    20 20                   and    BYTE PTR [eax],ah
+a1d:    20 20                   and    BYTE PTR [eax],ah
+a1f:    0a 32                   or     dh,BYTE PTR [edx]
+a21:    34 32                   xor    al,0x32
+a23:    35 36 31 32 20          xor    eax,0x20323136
+a28:    20 41 44                and    BYTE PTR [ecx+0x44],al
+a2b:    20 31                   and    BYTE PTR [ecx],dh
+a2d:    38 20                   cmp    BYTE PTR [eax],ah
+a2f:    43                      inc    ebx
+a30:    31 20                   xor    DWORD PTR [eax],esp
+a32:    39 37                   cmp    DWORD PTR [edi],esi
+a34:    20 34 35 20 30 34 20    and    BYTE PTR [esi*1+0x20343020],dh
+a3b:    30 33                   xor    BYTE PTR [ebx],dh
+a3d:    20 30                   and    BYTE PTR [eax],dh
+a3f:    30 20                   xor    BYTE PTR [eax],ah
+a41:    34 44                   xor    al,0x44
+a43:    20 41 30                and    BYTE PTR [ecx+0x30],al
+a46:    20 34 37                and    BYTE PTR [edi+esi*1],dh
+a49:    20 38                   and    BYTE PTR [eax],bh
+a4b:    30 20                   xor    BYTE PTR [eax],ah
+a4d:    34 39                   xor    al,0x39
+a4f:    20 42 33                and    BYTE PTR [edx+0x33],al
+a52:    20 30                   and    BYTE PTR [eax],dh
+a54:    34 20                   xor    al,0x20
+a56:    32 31                   xor    dh,BYTE PTR [ecx]
+a58:    20 20                   and    BYTE PTR [eax],ah
+a5a:    20 2e                   and    BYTE PTR [esi],ch
+a5c:    2e 2e 2e 45             cs cs cs inc ebp
+a60:    2e 2e 2e 4d             cs cs cs dec ebp
+a64:    2e 47                   cs inc edi
+a66:    2e 49                   cs dec ecx
+a68:    2e 2e 21 20             cs and DWORD PTR cs:[eax],esp
+a6c:    20 20                   and    BYTE PTR [eax],ah
+a6e:    20 20                   and    BYTE PTR [eax],ah
+a70:    20 20                   and    BYTE PTR [eax],ah
+a72:    20 20                   and    BYTE PTR [eax],ah
+a74:    20 20                   and    BYTE PTR [eax],ah
+a76:    20 20                   and    BYTE PTR [eax],ah
+a78:    20 20                   and    BYTE PTR [eax],ah
+a7a:    20 20                   and    BYTE PTR [eax],ah
+a7c:    20 20                   and    BYTE PTR [eax],ah
+a7e:    20 20                   and    BYTE PTR [eax],ah
+a80:    20 20                   and    BYTE PTR [eax],ah
+a82:    20 20                   and    BYTE PTR [eax],ah
+a84:    20 20                   and    BYTE PTR [eax],ah
+a86:    20 20                   and    BYTE PTR [eax],ah
+a88:    20 20                   and    BYTE PTR [eax],ah
+a8a:    20 20                   and    BYTE PTR [eax],ah
+a8c:    20 20                   and    BYTE PTR [eax],ah
+a8e:    20 20                   and    BYTE PTR [eax],ah
+a90:    20 20                   and    BYTE PTR [eax],ah
+a92:    20 20                   and    BYTE PTR [eax],ah
+a94:    20 20                   and    BYTE PTR [eax],ah
+a96:    20 20                   and    BYTE PTR [eax],ah
+a98:    20 20                   and    BYTE PTR [eax],ah
+a9a:    20 20                   and    BYTE PTR [eax],ah
+a9c:    20 20                   and    BYTE PTR [eax],ah
+a9e:    20 20                   and    BYTE PTR [eax],ah
+aa0:    20 20                   and    BYTE PTR [eax],ah
+aa2:    20 20                   and    BYTE PTR [eax],ah
+aa4:    20 20                   and    BYTE PTR [eax],ah
+aa6:    20 20                   and    BYTE PTR [eax],ah
+aa8:    20 20                   and    BYTE PTR [eax],ah
+aaa:    20 20                   and    BYTE PTR [eax],ah
+aac:    20 20                   and    BYTE PTR [eax],ah
+aae:    20 0a                   and    BYTE PTR [edx],cl
+ab0:    32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+ab3:    35 36 33 32 20          xor    eax,0x20323336
+ab8:    20 36                   and    BYTE PTR [esi],dh
+aba:    43                      inc    ebx
+abb:    20 35 33 20 30 44       and    BYTE PTR ds:0x44302033,dh
+ac1:    20 36                   and    BYTE PTR [esi],dh
+ac3:    31 20                   xor    DWORD PTR [eax],esp
+ac5:    30 32                   xor    BYTE PTR [edx],dh
+ac7:    20 32                   and    BYTE PTR [edx],dh
+ac9:    41                      inc    ecx
+aca:    20 34 46                and    BYTE PTR [esi+eax*2],dh
+acd:    20 30                   and    BYTE PTR [eax],dh
+acf:    30 20                   xor    BYTE PTR [eax],ah
+ad1:    30 34 20                xor    BYTE PTR [eax+eiz*1],dh
+ad4:    36 42                   ss inc edx
+ad6:    20 35 33 20 35 33       and    BYTE PTR ds:0x33352033,dh
+adc:    20 32                   and    BYTE PTR [edx],dh
+ade:    34 20                   xor    al,0x20
+ae0:    30 45 20                xor    BYTE PTR [ebp+0x20],al
+ae3:    36 32 20                xor    ah,BYTE PTR ss:[eax]
+ae6:    36 35 20 20 20 6c       ss xor eax,0x6c202020
+aec:    53                      push   ebx
+aed:    2e 61                   cs popa
+aef:    2e 2a 4f 2e             sub    cl,BYTE PTR cs:[edi+0x2e]
+af3:    2e 6b 53 53 24          imul   edx,DWORD PTR cs:[ebx+0x53],0x24
+af8:    2e 62 65 20             bound  esp,QWORD PTR cs:[ebp+0x20]
+afc:    20 20                   and    BYTE PTR [eax],ah
+afe:    20 20                   and    BYTE PTR [eax],ah
+b00:    20 20                   and    BYTE PTR [eax],ah
+b02:    20 20                   and    BYTE PTR [eax],ah
+b04:    20 20                   and    BYTE PTR [eax],ah
+b06:    20 20                   and    BYTE PTR [eax],ah
+b08:    20 20                   and    BYTE PTR [eax],ah
+b0a:    20 20                   and    BYTE PTR [eax],ah
+b0c:    20 20                   and    BYTE PTR [eax],ah
+b0e:    20 20                   and    BYTE PTR [eax],ah
+b10:    20 20                   and    BYTE PTR [eax],ah
+b12:    20 20                   and    BYTE PTR [eax],ah
+b14:    20 20                   and    BYTE PTR [eax],ah
+b16:    20 20                   and    BYTE PTR [eax],ah
+b18:    20 20                   and    BYTE PTR [eax],ah
+b1a:    20 20                   and    BYTE PTR [eax],ah
+b1c:    20 20                   and    BYTE PTR [eax],ah
+b1e:    20 20                   and    BYTE PTR [eax],ah
+b20:    20 20                   and    BYTE PTR [eax],ah
+b22:    20 20                   and    BYTE PTR [eax],ah
+b24:    20 20                   and    BYTE PTR [eax],ah
+b26:    20 20                   and    BYTE PTR [eax],ah
+b28:    20 20                   and    BYTE PTR [eax],ah
+b2a:    20 20                   and    BYTE PTR [eax],ah
+b2c:    20 20                   and    BYTE PTR [eax],ah
+b2e:    20 20                   and    BYTE PTR [eax],ah
+b30:    20 20                   and    BYTE PTR [eax],ah
+b32:    20 20                   and    BYTE PTR [eax],ah
+b34:    20 20                   and    BYTE PTR [eax],ah
+b36:    20 20                   and    BYTE PTR [eax],ah
+b38:    20 20                   and    BYTE PTR [eax],ah
+b3a:    20 20                   and    BYTE PTR [eax],ah
+b3c:    20 20                   and    BYTE PTR [eax],ah
+b3e:    20 0a                   and    BYTE PTR [edx],cl
+b40:    32 34 32                xor    dh,BYTE PTR [edx+esi*1]
+b43:    35 36 35 32 20          xor    eax,0x20323536
+b48:    20 36                   and    BYTE PTR [esi],dh
+b4a:    33 20                   xor    esp,DWORD PTR [eax]
+b4c:    32 30                   xor    dh,BYTE PTR [eax]
+b4e:    20 33                   and    BYTE PTR [ebx],dh
+b50:    35 20 35 37 20          xor    eax,0x20373520
+b55:    36 30 20                xor    BYTE PTR ss:[eax],ah
+b58:    32 34 20                xor    dh,BYTE PTR [eax+eiz*1]
+b5b:    31 33                   xor    DWORD PTR [ebx],esi
+b5d:    20 38                   and    BYTE PTR [eax],bh
+b5f:    45                      inc    ebp
+b60:    20 36                   and    BYTE PTR [esi],dh
+b62:    35 20 41 30 20          xor    eax,0x20304120
+b67:    31 38                   xor    DWORD PTR [eax],edi
+b69:    20 30                   and    BYTE PTR [eax],dh
+b6b:    38 20                   cmp    BYTE PTR [eax],ah
+b6d:    37                      aaa
+b6e:    41                      inc    ecx
+b6f:    20 36                   and    BYTE PTR [esi],dh
+b71:    45                      inc    ebp
+b72:    20 32                   and    BYTE PTR [edx],dh
+b74:    30 20                   xor    BYTE PTR [eax],ah
+b76:    44                      inc    esp
+b77:    31 20                   xor    DWORD PTR [eax],esp
+b79:    20 20                   and    BYTE PTR [eax],ah
+b7b:    63 20                   arpl   WORD PTR [eax],sp
+b7d:    35 57 60 24 2e          xor    eax,0x2e246057
+b82:    2e 65 2e 2e 2e 7a 6e    cs gs cs cs cs jp 0xbf7
+b89:    20 2e                   and    BYTE PTR [esi],ch
+b8b:    20 20                   and    BYTE PTR [eax],ah
+b8d:    20 20                   and    BYTE PTR [eax],ah
+b8f:    20 20                   and    BYTE PTR [eax],ah
+b91:    20 20                   and    BYTE PTR [eax],ah
+b93:    20 20                   and    BYTE PTR [eax],ah
+b95:    20 20                   and    BYTE PTR [eax],ah
+b97:    20 20                   and    BYTE PTR [eax],ah
+b99:    20 20                   and    BYTE PTR [eax],ah
+b9b:    20 20                   and    BYTE PTR [eax],ah
+b9d:    20 20                   and    BYTE PTR [eax],ah
+b9f:    20 20                   and    BYTE PTR [eax],ah
+ba1:    20 20                   and    BYTE PTR [eax],ah
+ba3:    20 20                   and    BYTE PTR [eax],ah
+ba5:    20 20                   and    BYTE PTR [eax],ah
+ba7:    20 20                   and    BYTE PTR [eax],ah
+ba9:    20 20                   and    BYTE PTR [eax],ah
+bab:    20 20                   and    BYTE PTR [eax],ah
+bad:    20 20                   and    BYTE PTR [eax],ah
+baf:    20 20                   and    BYTE PTR [eax],ah
+bb1:    20 20                   and    BYTE PTR [eax],ah
+bb3:    20 20                   and    BYTE PTR [eax],ah
+bb5:    20 20                   and    BYTE PTR [eax],ah
+bb7:    20 20                   and    BYTE PTR [eax],ah
+bb9:    20 20                   and    BYTE PTR [eax],ah
+bbb:    20 20                   and    BYTE PTR [eax],ah
+bbd:    20 20                   and    BYTE PTR [eax],ah
+bbf:    20 20                   and    BYTE PTR [eax],ah
+bc1:    20 20                   and    BYTE PTR [eax],ah
+bc3:    20 20                   and    BYTE PTR [eax],ah
+bc5:    20 20                   and    BYTE PTR [eax],ah
+bc7:    20 20                   and    BYTE PTR [eax],ah
+bc9:    20 20                   and    BYTE PTR [eax],ah
+bcb:    20 20                   and    BYTE PTR [eax],ah
+bcd:    20 20                   and    BYTE PTR [eax],ah
+bcf:    0a 32                   or     dh,BYTE PTR [edx]
+bd1:    34 32                   xor    al,0x32
+bd3:    35 36 37 32 20          xor    eax,0x20323736
+bd8:    20 30                   and    BYTE PTR [eax],dh
+bda:    33 20                   xor    esp,DWORD PTR [eax]
+bdc:    31 32                   xor    DWORD PTR [edx],esi
+bde:    20 33                   and    BYTE PTR [ebx],dh
+be0:    41                      inc    ecx
+be1:    20 32                   and    BYTE PTR [edx],dh
+be3:    41                      inc    ecx
+be4:    20 30                   and    BYTE PTR [eax],dh
+be6:    34 20                   xor    al,0x20
+be8:    32 32                   xor    dh,BYTE PTR [edx]
+bea:    20 34 45 20 42 34 20    and    BYTE PTR [eax*2+0x20344220],dh
+bf1:    35 37 20 30 30          xor    eax,0x30302037
+bf6:    20 30                   and    BYTE PTR [eax],dh
+bf8:    46                      inc    esi
+bf9:    20 45 37                and    BYTE PTR [ebp+0x37],al
+bfc:    20 35 33 20 32 44       and    BYTE PTR ds:0x44322033,dh
+c02:    20 30                   and    BYTE PTR [eax],dh
+c04:    32 20                   xor    ah,BYTE PTR [eax]
+c06:    32 41 20                xor    al,BYTE PTR [ecx+0x20]
+c09:    20 20                   and    BYTE PTR [eax],ah
+c0b:    2e 2e 3a 2a             cs cmp ch,BYTE PTR cs:[edx]
+c0f:    2e 22 4e 2e             and    cl,BYTE PTR cs:[esi+0x2e]
+c13:    57                      push   edi
+c14:    2e 2e 2e 53             cs cs cs push ebx
+c18:    2d 2e 2a 20 20          sub    eax,0x20202a2e
+c1d:    20 20                   and    BYTE PTR [eax],ah
+c1f:    20 20                   and    BYTE PTR [eax],ah
+c21:    20 20                   and    BYTE PTR [eax],ah
+c23:    20 20                   and    BYTE PTR [eax],ah
+c25:    20 20                   and    BYTE PTR [eax],ah
+c27:    20 20                   and    BYTE PTR [eax],ah
+c29:    20 20                   and    BYTE PTR [eax],ah
+c2b:    20 20                   and    BYTE PTR [eax],ah
+c2d:    20 20                   and    BYTE PTR [eax],ah
+c2f:    20 20                   and    BYTE PTR [eax],ah
+c31:    20 20                   and    BYTE PTR [eax],ah
+c33:    20 20                   and    BYTE PTR [eax],ah
+c35:    20 20                   and    BYTE PTR [eax],ah
+c37:    20 20                   and    BYTE PTR [eax],ah
+c39:    20 20                   and    BYTE PTR [eax],ah
+c3b:    20 20                   and    BYTE PTR [eax],ah
+c3d:    20 20                   and    BYTE PTR [eax],ah
+c3f:    20 20                   and    BYTE PTR [eax],ah
+c41:    20 20                   and    BYTE PTR [eax],ah
+c43:    20 20                   and    BYTE PTR [eax],ah
+c45:    20 20                   and    BYTE PTR [eax],ah
+c47:    20 20                   and    BYTE PTR [eax],ah
+c49:    20 20                   and    BYTE PTR [eax],ah
+c4b:    20 20                   and    BYTE PTR [eax],ah
+c4d:    20 20                   and    BYTE PTR [eax],ah
+c4f:    20 20                   and    BYTE PTR [eax],ah
+c51:    20 20                   and    BYTE PTR [eax],ah
+c53:    20 20                   and    BYTE PTR [eax],ah
+c55:    20 20                   and    BYTE PTR [eax],ah
+c57:    20 20                   and    BYTE PTR [eax],ah
+c59:    20 20                   and    BYTE PTR [eax],ah
+c5b:    20 20                   and    BYTE PTR [eax],ah
+c5d:    20 20                   and    BYTE PTR [eax],ah
+c5f:    0a 32                   or     dh,BYTE PTR [edx]
+c61:    34 32                   xor    al,0x32
+c63:    35 37 31 32 20          xor    eax,0x20323137
+c68:    20 34 46                and    BYTE PTR [esi+eax*2],dh
+c6b:    20 30                   and    BYTE PTR [eax],dh
+c6d:    41                      inc    ecx
+c6e:    20 36                   and    BYTE PTR [esi],dh
+c70:    30 20                   xor    BYTE PTR [eax],ah
+c72:    32 31                   xor    dh,BYTE PTR [ecx]
+c74:    20 30                   and    BYTE PTR [eax],dh
+c76:    39 20                   cmp    DWORD PTR [eax],esp
+c78:    41                      inc    ecx
+c79:    33 20                   xor    esp,DWORD PTR [eax]
+c7b:    30 38                   xor    BYTE PTR [eax],bh
+c7d:    20 43 30                and    BYTE PTR [ebx+0x30],al
+c80:    20 36                   and    BYTE PTR [esi],dh
+c82:    35 20 44 32 20          xor    eax,0x20324420
+c87:    32 38                   xor    bh,BYTE PTR [eax]
+c89:    20 32                   and    BYTE PTR [edx],dh
+c8b:    31 20                   xor    DWORD PTR [eax],esp
+c8d:    30 35 20 31 38 20       xor    BYTE PTR ds:0x20383120,dh
+c93:    33 36                   xor    esi,DWORD PTR [esi]
+c95:    20 39                   and    BYTE PTR [ecx],bh
+c97:    43                      inc    ebx
+c98:    20 20                   and    BYTE PTR [eax],ah
+c9a:    20 4f 2e                and    BYTE PTR [edi+0x2e],cl
+c9d:    60                      pusha
+c9e:    21 2e                   and    DWORD PTR [esi],ebp
+ca0:    2e 2e 2e 65 2e 28 21    cs cs cs gs sub BYTE PTR cs:[ecx],ah
+ca7:    2e 2e 36 2e 20 20       cs cs ss and BYTE PTR cs:[eax],ah
+cad:    20 20                   and    BYTE PTR [eax],ah
+caf:    20 20                   and    BYTE PTR [eax],ah
+cb1:    20 20                   and    BYTE PTR [eax],ah
+cb3:    20 20                   and    BYTE PTR [eax],ah
+cb5:    20 20                   and    BYTE PTR [eax],ah
+cb7:    20 20                   and    BYTE PTR [eax],ah
+cb9:    20 20                   and    BYTE PTR [eax],ah
+cbb:    20 20                   and    BYTE PTR [eax],ah
+cbd:    20 20                   and    BYTE PTR [eax],ah
+cbf:    20 20                   and    BYTE PTR [eax],ah
+cc1:    20 20                   and    BYTE PTR [eax],ah
+cc3:    20 20                   and    BYTE PTR [eax],ah
+cc5:    20 20                   and    BYTE PTR [eax],ah
+cc7:    20 20                   and    BYTE PTR [eax],ah
+cc9:    20 20                   and    BYTE PTR [eax],ah
+ccb:    20 20                   and    BYTE PTR [eax],ah
+ccd:    20 20                   and    BYTE PTR [eax],ah
+ccf:    20 20                   and    BYTE PTR [eax],ah
+cd1:    20 20                   and    BYTE PTR [eax],ah
+cd3:    20 20                   and    BYTE PTR [eax],ah
+cd5:    20 20                   and    BYTE PTR [eax],ah
+cd7:    20 20                   and    BYTE PTR [eax],ah
+cd9:    20 20                   and    BYTE PTR [eax],ah
+cdb:    20 20                   and    BYTE PTR [eax],ah
+cdd:    20 20                   and    BYTE PTR [eax],ah
+cdf:    20 20                   and    BYTE PTR [eax],ah
+ce1:    20 20                   and    BYTE PTR [eax],ah
+ce3:    20 20                   and    BYTE PTR [eax],ah
+ce5:    20 20                   and    BYTE PTR [eax],ah
+ce7:    20 20                   and    BYTE PTR [eax],ah
+ce9:    20 20                   and    BYTE PTR [eax],ah
+ceb:    20 20                   and    BYTE PTR [eax],ah
+ced:    20 20                   and    BYTE PTR [eax],ah
+cef:    0a 32                   or     dh,BYTE PTR [edx]
+cf1:    34 32                   xor    al,0x32
+cf3:    35 37 33 32 20          xor    eax,0x20323337
+cf8:    20 30                   and    BYTE PTR [eax],dh
+cfa:    30 20                   xor    BYTE PTR [eax],ah
+cfc:    36 39 20                cmp    DWORD PTR ss:[eax],esp
+cff:    39 36                   cmp    DWORD PTR [esi],esi
+d01:    20 34 35 20 42 33 20    and    BYTE PTR [esi*1+0x20334220],dh
+d08:    39 36                   cmp    DWORD PTR [esi],esi
+d0a:    20 34 35 20 34 31 20    and    BYTE PTR [esi*1+0x20313420],dh
+d11:    30 32                   xor    BYTE PTR [edx],dh
+d13:    20 41 32                and    BYTE PTR [ecx+0x32],al
+d16:    20 30                   and    BYTE PTR [eax],dh
+d18:    30 20                   xor    BYTE PTR [eax],ah
+d1a:    44                      inc    esp
+d1b:    31 20                   xor    DWORD PTR [eax],esp
+d1d:    45                      inc    ebp
+d1e:    33 20                   xor    esp,DWORD PTR [eax]
+d20:    35 37 20 36 41          xor    eax,0x41362037
+d25:    20 31                   and    BYTE PTR [ecx],dh
+d27:    30 20                   xor    BYTE PTR [eax],ah
+d29:    20 20                   and    BYTE PTR [eax],ah
+d2b:    2e 69 2e 45 2e 2e 45    imul   ebp,DWORD PTR cs:[esi],0x452e2e45
+d32:    41                      inc    ecx
+d33:    2e 2e 2e 2e 2e 57       cs cs cs cs cs push edi
+d39:    6a 2e                   push   0x2e
+d3b:    20 20                   and    BYTE PTR [eax],ah
+d3d:    20 20                   and    BYTE PTR [eax],ah
+d3f:    20 20                   and    BYTE PTR [eax],ah
+d41:    20 20                   and    BYTE PTR [eax],ah
+d43:    20 20                   and    BYTE PTR [eax],ah
+d45:    20 20                   and    BYTE PTR [eax],ah
+d47:    20 20                   and    BYTE PTR [eax],ah
+d49:    20 20                   and    BYTE PTR [eax],ah
+d4b:    20 20                   and    BYTE PTR [eax],ah
+d4d:    20 20                   and    BYTE PTR [eax],ah
+d4f:    20 20                   and    BYTE PTR [eax],ah
+d51:    20 20                   and    BYTE PTR [eax],ah
+d53:    20 20                   and    BYTE PTR [eax],ah
+d55:    20 20                   and    BYTE PTR [eax],ah
+d57:    20 20                   and    BYTE PTR [eax],ah
+d59:    20 20                   and    BYTE PTR [eax],ah
+d5b:    20 20                   and    BYTE PTR [eax],ah
+d5d:    20 20                   and    BYTE PTR [eax],ah
+d5f:    20 20                   and    BYTE PTR [eax],ah
+d61:    20 20                   and    BYTE PTR [eax],ah
+d63:    20 20                   and    BYTE PTR [eax],ah
+d65:    20 20                   and    BYTE PTR [eax],ah
+d67:    20 20                   and    BYTE PTR [eax],ah
+d69:    20 20                   and    BYTE PTR [eax],ah
+d6b:    20 20                   and    BYTE PTR [eax],ah
+d6d:    20 20                   and    BYTE PTR [eax],ah
+d6f:    20 20                   and    BYTE PTR [eax],ah
+d71:    20 20                   and    BYTE PTR [eax],ah
+d73:    20 20                   and    BYTE PTR [eax],ah
+d75:    20 20                   and    BYTE PTR [eax],ah
+d77:    20 20                   and    BYTE PTR [eax],ah
+d79:    20 20                   and    BYTE PTR [eax],ah
+d7b:    20 20                   and    BYTE PTR [eax],ah
+d7d:    20 20                   and    BYTE PTR [eax],ah
+d7f:    0a 32                   or     dh,BYTE PTR [edx]
+d81:    34 32                   xor    al,0x32
+d83:    35 37 35 32 20          xor    eax,0x20323537
+d88:    20 30                   and    BYTE PTR [eax],dh
+d8a:    37                      aaa
+d8b:    20 42 32                and    BYTE PTR [edx+0x32],al
+d8e:    20 30                   and    BYTE PTR [eax],dh
+d90:    34 20                   xor    al,0x20
+d92:    45                      inc    ebp
+d93:    36 20 35 46 20 32 45    and    BYTE PTR ss:0x45322046,dh
+d9a:    20 36                   and    BYTE PTR [esi],dh
+d9c:    33 20                   xor    esp,DWORD PTR [eax]
+d9e:    32 30                   xor    dh,BYTE PTR [eax]
+da0:    20 36                   and    BYTE PTR [esi],dh
+da2:    31 20                   xor    DWORD PTR [eax],esp
+da4:    42                      inc    edx
+da5:    37                      aaa
+da6:    20 36                   and    BYTE PTR [esi],dh
+da8:    39 20                   cmp    DWORD PTR [eax],esp
+daa:    39 38                   cmp    DWORD PTR [eax],edi
+dac:    20 30                   and    BYTE PTR [eax],dh
+dae:    30 20                   xor    BYTE PTR [eax],ah
+db0:    32 41 20                xor    al,BYTE PTR [ecx+0x20]
+db3:    31 38                   xor    DWORD PTR [eax],edi
+db5:    20 31                   and    BYTE PTR [ecx],dh
+db7:    38 20                   cmp    BYTE PTR [eax],ah
+db9:    20 20                   and    BYTE PTR [eax],ah
+dbb:    2e 2e 2e 2e 5f          cs cs cs cs pop edi
+dc0:    2e 63 20                arpl   WORD PTR cs:[eax],sp
+dc3:    61                      popa
+dc4:    2e 69 2e 2e 2a 2e 2e    imul   ebp,DWORD PTR cs:[esi],0x2e2e2a2e
+dcb:    20 20                   and    BYTE PTR [eax],ah
+dcd:    20 20                   and    BYTE PTR [eax],ah
+dcf:    20 20                   and    BYTE PTR [eax],ah
+dd1:    20 20                   and    BYTE PTR [eax],ah
+dd3:    20 20                   and    BYTE PTR [eax],ah
+dd5:    20 20                   and    BYTE PTR [eax],ah
+dd7:    20 20                   and    BYTE PTR [eax],ah
+dd9:    20 20                   and    BYTE PTR [eax],ah
+ddb:    20 20                   and    BYTE PTR [eax],ah
+ddd:    20 20                   and    BYTE PTR [eax],ah
+ddf:    20 20                   and    BYTE PTR [eax],ah
+de1:    20 20                   and    BYTE PTR [eax],ah
+de3:    20 20                   and    BYTE PTR [eax],ah
+de5:    20 20                   and    BYTE PTR [eax],ah
+de7:    20 20                   and    BYTE PTR [eax],ah
+de9:    20 20                   and    BYTE PTR [eax],ah
+deb:    20 20                   and    BYTE PTR [eax],ah
+ded:    20 20                   and    BYTE PTR [eax],ah
+def:    20 20                   and    BYTE PTR [eax],ah
+df1:    20 20                   and    BYTE PTR [eax],ah
+df3:    20 20                   and    BYTE PTR [eax],ah
+df5:    20 20                   and    BYTE PTR [eax],ah
+df7:    20 20                   and    BYTE PTR [eax],ah
+df9:    20 20                   and    BYTE PTR [eax],ah
+dfb:    20 20                   and    BYTE PTR [eax],ah
+dfd:    20 20                   and    BYTE PTR [eax],ah
+dff:    20 20                   and    BYTE PTR [eax],ah
+e01:    20 20                   and    BYTE PTR [eax],ah
+e03:    20 20                   and    BYTE PTR [eax],ah
+e05:    20 20                   and    BYTE PTR [eax],ah
+e07:    20 20                   and    BYTE PTR [eax],ah
+e09:    20 20                   and    BYTE PTR [eax],ah
+e0b:    20 20                   and    BYTE PTR [eax],ah
+e0d:    20 20                   and    BYTE PTR [eax],ah
+e0f:    0a 32                   or     dh,BYTE PTR [edx]
+e11:    34 32                   xor    al,0x32
+e13:    35 37 37 32 20          xor    eax,0x20323737
+e18:    20 31                   and    BYTE PTR [ecx],dh
+e1a:    39 20                   cmp    DWORD PTR [eax],esp
+e1c:    32 31                   xor    dh,BYTE PTR [ecx]
+e1e:    20 30                   and    BYTE PTR [eax],dh
+e20:    37                      aaa
+e21:    20 38                   and    BYTE PTR [eax],bh
+e23:    45                      inc    ebp
+e24:    20 36                   and    BYTE PTR [esi],dh
+e26:    33 20                   xor    esp,DWORD PTR [eax]
+e28:    32 42 20                xor    al,BYTE PTR [edx+0x20]
+e2b:    36 41                   ss inc ecx
+e2d:    20 32                   and    BYTE PTR [edx],dh
+e2f:    30 20                   xor    BYTE PTR [eax],ah
+e31:    36 32 20                xor    ah,BYTE PTR ss:[eax]
+e34:    34 45                   xor    al,0x45
+e36:    20 34 35 20 34 31 20    and    BYTE PTR [esi*1+0x20313420],dh
+e3d:    31 30                   xor    DWORD PTR [eax],esi
+e3f:    20 42 39                and    BYTE PTR [edx+0x39],al
+e42:    20 30                   and    BYTE PTR [eax],dh
+e44:    46                      inc    esi
+e45:    20 43 32                and    BYTE PTR [ebx+0x32],al
+e48:    20 20                   and    BYTE PTR [eax],ah
+e4a:    20 2e                   and    BYTE PTR [esi],ch
+e4c:    21 2e                   and    DWORD PTR [esi],ebp
+e4e:    2e 63 2b                arpl   WORD PTR cs:[ebx],bp
+e51:    6a 20                   push   0x20
+e53:    62 4e 45                bound  ecx,QWORD PTR [esi+0x45]
+e56:    41                      inc    ecx
+e57:    2e 2e 2e 2e 20 20       cs cs cs and BYTE PTR cs:[eax],ah
+e5d:    20 20                   and    BYTE PTR [eax],ah
+e5f:    20 20                   and    BYTE PTR [eax],ah
+e61:    20 20                   and    BYTE PTR [eax],ah
+e63:    20 20                   and    BYTE PTR [eax],ah
+e65:    20 20                   and    BYTE PTR [eax],ah
+e67:    20 20                   and    BYTE PTR [eax],ah
+e69:    20 20                   and    BYTE PTR [eax],ah
+e6b:    20 20                   and    BYTE PTR [eax],ah
+e6d:    20 20                   and    BYTE PTR [eax],ah
+e6f:    20 20                   and    BYTE PTR [eax],ah
+e71:    20 20                   and    BYTE PTR [eax],ah
+e73:    20 20                   and    BYTE PTR [eax],ah
+e75:    20 20                   and    BYTE PTR [eax],ah
+e77:    20 20                   and    BYTE PTR [eax],ah
+e79:    20 20                   and    BYTE PTR [eax],ah
+e7b:    20 20                   and    BYTE PTR [eax],ah
+e7d:    20 20                   and    BYTE PTR [eax],ah
+e7f:    20 20                   and    BYTE PTR [eax],ah
+e81:    20 20                   and    BYTE PTR [eax],ah
+e83:    20 20                   and    BYTE PTR [eax],ah
+e85:    20 20                   and    BYTE PTR [eax],ah
+e87:    20 20                   and    BYTE PTR [eax],ah
+e89:    20 20                   and    BYTE PTR [eax],ah
+e8b:    20 20                   and    BYTE PTR [eax],ah
+e8d:    20 20                   and    BYTE PTR [eax],ah
+e8f:    20 20                   and    BYTE PTR [eax],ah
+e91:    20 20                   and    BYTE PTR [eax],ah
+e93:    20 20                   and    BYTE PTR [eax],ah
+e95:    20 20                   and    BYTE PTR [eax],ah
+e97:    20 20                   and    BYTE PTR [eax],ah
+e99:    20 20                   and    BYTE PTR [eax],ah
+e9b:    20 20                   and    BYTE PTR [eax],ah
+e9d:    20 20                   and    BYTE PTR [eax],ah
+e9f:    0a 32                   or     dh,BYTE PTR [edx]
+ea1:    34 32                   xor    al,0x32
+ea3:    36 30 31                xor    BYTE PTR ss:[ecx],dh
+ea6:    32 20                   xor    ah,BYTE PTR [eax]
+ea8:    20 30                   and    BYTE PTR [eax],dh
+eaa:    43                      inc    ebx
+eab:    20 32                   and    BYTE PTR [edx],dh
+ead:    43                      inc    ebx
+eae:    20 36                   and    BYTE PTR [esi],dh
+eb0:    30 20                   xor    BYTE PTR [eax],ah
+eb2:    44                      inc    esp
+eb3:    45                      inc    ebp
+eb4:    20 39                   and    BYTE PTR [ecx],bh
+eb6:    36 20 41 30             and    BYTE PTR ss:[ecx+0x30],al
+eba:    20 39                   and    BYTE PTR [ecx],bh
+ebc:    41                      inc    ecx
+ebd:    20 41 32                and    BYTE PTR [ecx+0x32],al
+ec0:    20 42 33                and    BYTE PTR [edx+0x33],al
+ec3:    20 30                   and    BYTE PTR [eax],dh
+ec5:    30 20                   xor    BYTE PTR [eax],ah
+ec7:    32 45 20                xor    al,BYTE PTR [ebp+0x20]
+eca:    31 38                   xor    DWORD PTR [eax],edi
+ecc:    20 31                   and    BYTE PTR [ecx],dh
+ece:    32 20                   xor    ah,BYTE PTR [eax]
+ed0:    35 33 20 31 39          xor    eax,0x39312033
+ed5:    20 30                   and    BYTE PTR [eax],dh
+ed7:    33 20                   xor    esp,DWORD PTR [eax]
+ed9:    20 20                   and    BYTE PTR [eax],ah
+edb:    2e 2c 60                cs sub al,0x60
+ede:    2e 2e 2e 2e 2e 2e 2e    cs cs cs cs cs cs cs cs cs cs push ebx
+ee5:    2e 2e 2e 53
+ee9:    2e 2e 20 20             cs and BYTE PTR cs:[eax],ah
+eed:    20 20                   and    BYTE PTR [eax],ah
+eef:    20 20                   and    BYTE PTR [eax],ah
+ef1:    20 20                   and    BYTE PTR [eax],ah
+ef3:    20 20                   and    BYTE PTR [eax],ah
+ef5:    20 20                   and    BYTE PTR [eax],ah
+ef7:    20 20                   and    BYTE PTR [eax],ah
+ef9:    20 20                   and    BYTE PTR [eax],ah
+efb:    20 20                   and    BYTE PTR [eax],ah
+efd:    20 20                   and    BYTE PTR [eax],ah
+eff:    20 20                   and    BYTE PTR [eax],ah
+f01:    20 20                   and    BYTE PTR [eax],ah
+f03:    20 20                   and    BYTE PTR [eax],ah
+f05:    20 20                   and    BYTE PTR [eax],ah
+f07:    20 20                   and    BYTE PTR [eax],ah
+f09:    20 20                   and    BYTE PTR [eax],ah
+f0b:    20 20                   and    BYTE PTR [eax],ah
+f0d:    20 20                   and    BYTE PTR [eax],ah
+f0f:    20 20                   and    BYTE PTR [eax],ah
+f11:    20 20                   and    BYTE PTR [eax],ah
+f13:    20 20                   and    BYTE PTR [eax],ah
+f15:    20 20                   and    BYTE PTR [eax],ah
+f17:    20 20                   and    BYTE PTR [eax],ah
+f19:    20 20                   and    BYTE PTR [eax],ah
+f1b:    20 20                   and    BYTE PTR [eax],ah
+f1d:    20 20                   and    BYTE PTR [eax],ah
+f1f:    20 20                   and    BYTE PTR [eax],ah
+f21:    20 20                   and    BYTE PTR [eax],ah
+f23:    20 20                   and    BYTE PTR [eax],ah
+f25:    20 20                   and    BYTE PTR [eax],ah
+f27:    20 20                   and    BYTE PTR [eax],ah
+f29:    20 20                   and    BYTE PTR [eax],ah
+f2b:    20 20                   and    BYTE PTR [eax],ah
+f2d:    20 20                   and    BYTE PTR [eax],ah
+f2f:    0a 32                   or     dh,BYTE PTR [edx]
+f31:    34 32                   xor    al,0x32
+f33:    36 30 33                xor    BYTE PTR ss:[ebx],dh
+f36:    32 20                   xor    ah,BYTE PTR [eax]
+f38:    20 35 33 20 36 42       and    BYTE PTR ds:0x42362033,dh
+f3e:    20 31                   and    BYTE PTR [ecx],dh
+f40:    41                      inc    ecx
+f41:    20 31                   and    BYTE PTR [ecx],dh
+f43:    41                      inc    ecx
+f44:    20 32                   and    BYTE PTR [edx],dh
+f46:    30 20                   xor    BYTE PTR [eax],ah
+f48:    33 31                   xor    esi,DWORD PTR [ecx]
+f4a:    20 44 37 20             and    BYTE PTR [edi+esi*1+0x20],al
+f4e:    34 34                   xor    al,0x34
+f50:    20 42 32                and    BYTE PTR [edx+0x32],al
+f53:    20 31                   and    BYTE PTR [ecx],dh
+f55:    36 20 34 31             and    BYTE PTR ss:[ecx+esi*1],dh
+f59:    20 31                   and    BYTE PTR [ecx],dh
+f5b:    33 20                   xor    esp,DWORD PTR [eax]
+f5d:    35 39 20 36 35          xor    eax,0x35362039
+f62:    20 35 37 20 34 37       and    BYTE PTR ds:0x37342037,dh
+f68:    20 20                   and    BYTE PTR [eax],ah
+f6a:    20 53 6b                and    BYTE PTR [ebx+0x6b],dl
+f6d:    2e 2e 20 31             cs and BYTE PTR cs:[ecx],dh
+f71:    2e 44                   cs inc esp
+f73:    2e 2e 41                cs cs inc ecx
+f76:    2e 59                   cs pop ecx
+f78:    65 57                   gs push edi
+f7a:    47                      inc    edi
+f7b:    20 20                   and    BYTE PTR [eax],ah
+f7d:    20 20                   and    BYTE PTR [eax],ah
+f7f:    20 20                   and    BYTE PTR [eax],ah
+f81:    20 20                   and    BYTE PTR [eax],ah
+f83:    20 20                   and    BYTE PTR [eax],ah
+f85:    20 20                   and    BYTE PTR [eax],ah
+f87:    20 20                   and    BYTE PTR [eax],ah
+f89:    20 20                   and    BYTE PTR [eax],ah
+f8b:    20 20                   and    BYTE PTR [eax],ah
+f8d:    20 20                   and    BYTE PTR [eax],ah
+f8f:    20 20                   and    BYTE PTR [eax],ah
+f91:    20 20                   and    BYTE PTR [eax],ah
+f93:    20 20                   and    BYTE PTR [eax],ah
+f95:    20 20                   and    BYTE PTR [eax],ah
+f97:    20 20                   and    BYTE PTR [eax],ah
+f99:    20 20                   and    BYTE PTR [eax],ah
+f9b:    20 20                   and    BYTE PTR [eax],ah
+f9d:    20 20                   and    BYTE PTR [eax],ah
+f9f:    20 20                   and    BYTE PTR [eax],ah
+fa1:    20 20                   and    BYTE PTR [eax],ah
+fa3:    20 20                   and    BYTE PTR [eax],ah
+fa5:    20 20                   and    BYTE PTR [eax],ah
+fa7:    20 20                   and    BYTE PTR [eax],ah
+fa9:    20 20                   and    BYTE PTR [eax],ah
+fab:    20 20                   and    BYTE PTR [eax],ah
+fad:    20 20                   and    BYTE PTR [eax],ah
+faf:    20 20                   and    BYTE PTR [eax],ah
+fb1:    20 20                   and    BYTE PTR [eax],ah
+fb3:    20 20                   and    BYTE PTR [eax],ah
+fb5:    20 20                   and    BYTE PTR [eax],ah
+fb7:    20 20                   and    BYTE PTR [eax],ah
+fb9:    20 20                   and    BYTE PTR [eax],ah
+fbb:    20 20                   and    BYTE PTR [eax],ah
+fbd:    20 20                   and    BYTE PTR [eax],ah
+fbf:    0a 32                   or     dh,BYTE PTR [edx]
+fc1:    34 32                   xor    al,0x32
+fc3:    36 30 35 32 20 20 43    xor    BYTE PTR ss:0x43202032,dh
+fca:    30 20                   xor    BYTE PTR [eax],ah
+fcc:    36 41                   ss inc ecx
+fce:    20 37                   and    BYTE PTR [edi],dh
+fd0:    43                      inc    ebx
+fd1:    20 35 32 20 46 31       and    BYTE PTR ds:0x31462032,dh
+fd7:    20 32                   and    BYTE PTR [edx],dh
+fd9:    36 20 33                and    BYTE PTR ss:[ebx],dh
+fdc:    45                      inc    ebp
+fdd:    20 31                   and    BYTE PTR [ecx],dh
+fdf:    36 20 34 35 20 34 38    and    BYTE PTR ss:[esi*1+0x20383420],dh
+fe6:    20
+fe7:    32 34 20                xor    dh,BYTE PTR [eax+eiz*1]
+fea:    31 41 20                xor    DWORD PTR [ecx+0x20],eax
+fed:    33 32                   xor    esi,DWORD PTR [edx]
+fef:    20 35 33 20 31 39       and    BYTE PTR ds:0x39312033,dh
+ff5:    20 30                   and    BYTE PTR [eax],dh
+ff7:    31 20                   xor    DWORD PTR [eax],esp
+ff9:    20 20                   and    BYTE PTR [eax],ah
+ffb:    2e 6a 7c                cs push 0x7c
+ffe:    52                      push   edx
+fff:    2e 26 3e 2e 45          cs es ds cs inc ebp
+1004:   48                      dec    eax
+1005:   24 2e                   and    al,0x2e
+1007:   32 53 2e                xor    dl,BYTE PTR [ebx+0x2e]
+100a:   2e 20 20                and    BYTE PTR cs:[eax],ah
+100d:   20 20                   and    BYTE PTR [eax],ah
+100f:   20 20                   and    BYTE PTR [eax],ah
+1011:   20 20                   and    BYTE PTR [eax],ah
+1013:   20 20                   and    BYTE PTR [eax],ah
+1015:   20 20                   and    BYTE PTR [eax],ah
+1017:   20 20                   and    BYTE PTR [eax],ah
+1019:   20 20                   and    BYTE PTR [eax],ah
+101b:   20 20                   and    BYTE PTR [eax],ah
+101d:   20 20                   and    BYTE PTR [eax],ah
+101f:   20 20                   and    BYTE PTR [eax],ah
+1021:   20 20                   and    BYTE PTR [eax],ah
+1023:   20 20                   and    BYTE PTR [eax],ah
+1025:   20 20                   and    BYTE PTR [eax],ah
+1027:   20 20                   and    BYTE PTR [eax],ah
+1029:   20 20                   and    BYTE PTR [eax],ah
+102b:   20 20                   and    BYTE PTR [eax],ah
+102d:   20 20                   and    BYTE PTR [eax],ah
+102f:   20 20                   and    BYTE PTR [eax],ah
+1031:   20 20                   and    BYTE PTR [eax],ah
+1033:   20 20                   and    BYTE PTR [eax],ah
+1035:   20 20                   and    BYTE PTR [eax],ah
+1037:   20 20                   and    BYTE PTR [eax],ah
+1039:   20 20                   and    BYTE PTR [eax],ah
+103b:   20 20                   and    BYTE PTR [eax],ah
+103d:   20 20                   and    BYTE PTR [eax],ah
+103f:   20 20                   and    BYTE PTR [eax],ah
+1041:   20 20                   and    BYTE PTR [eax],ah
+1043:   20 20                   and    BYTE PTR [eax],ah
+1045:   20 20                   and    BYTE PTR [eax],ah
+1047:   20 20                   and    BYTE PTR [eax],ah
+1049:   20 20                   and    BYTE PTR [eax],ah
+104b:   20 20                   and    BYTE PTR [eax],ah
+104d:   20 20                   and    BYTE PTR [eax],ah
+104f:   0a 32                   or     dh,BYTE PTR [edx]
+1051:   34 32                   xor    al,0x32
+1053:   36 30 37                xor    BYTE PTR ss:[edi],dh
+1056:   32 20                   xor    ah,BYTE PTR [eax]
+1058:   20 36                   and    BYTE PTR [esi],dh
+105a:   41                      inc    ecx
+105b:   20 37                   and    BYTE PTR [edi],dh
+105d:   38 20                   cmp    BYTE PTR [eax],ah
+105f:   32 34 20                xor    dh,BYTE PTR [eax+eiz*1]
+1062:   30 43 20                xor    BYTE PTR [ebx+0x20],al
+1065:   32 43 20                xor    al,BYTE PTR [ebx+0x20]
+1068:   35 44 20 35 43          xor    eax,0x43352044
+106d:   20 30                   and    BYTE PTR [eax],dh
+106f:   33 20                   xor    esp,DWORD PTR [eax]
+1071:   35 35 20 30 30          xor    eax,0x30302035
+1076:   20 33                   and    BYTE PTR [ebx],dh
+1078:   30 20                   xor    BYTE PTR [eax],ah
+107a:   31 38                   xor    DWORD PTR [eax],edi
+107c:   20 30                   and    BYTE PTR [eax],dh
+107e:   38 20                   cmp    BYTE PTR [eax],ah
+1080:   35 33 20 33 39          xor    eax,0x39332033
+1085:   20 31                   and    BYTE PTR [ecx],dh
+1087:   39 20                   cmp    DWORD PTR [eax],esp
+1089:   20 20                   and    BYTE PTR [eax],ah
+108b:   6a 78                   push   0x78
+108d:   24 2e                   and    al,0x2e
+108f:   2c 5d                   sub    al,0x5d
+1091:   5c                      pop    esp
+1092:   2e 55                   cs push ebp
+1094:   2e 30 2e                xor    BYTE PTR cs:[esi],ch
+1097:   2e 53                   cs push ebx
+1099:   39 2e                   cmp    DWORD PTR [esi],ebp
+109b:   20 20                   and    BYTE PTR [eax],ah
+109d:   20 20                   and    BYTE PTR [eax],ah
+109f:   20 20                   and    BYTE PTR [eax],ah
+10a1:   20 20                   and    BYTE PTR [eax],ah
+10a3:   20 20                   and    BYTE PTR [eax],ah
+10a5:   20 20                   and    BYTE PTR [eax],ah
+10a7:   20 20                   and    BYTE PTR [eax],ah
+10a9:   20 20                   and    BYTE PTR [eax],ah
+10ab:   20 20                   and    BYTE PTR [eax],ah
+10ad:   20 20                   and    BYTE PTR [eax],ah
+10af:   20 20                   and    BYTE PTR [eax],ah
+10b1:   20 20                   and    BYTE PTR [eax],ah
+10b3:   20 20                   and    BYTE PTR [eax],ah
+10b5:   20 20                   and    BYTE PTR [eax],ah
+10b7:   20 20                   and    BYTE PTR [eax],ah
+10b9:   20 20                   and    BYTE PTR [eax],ah
+10bb:   20 20                   and    BYTE PTR [eax],ah
+10bd:   20 20                   and    BYTE PTR [eax],ah
+10bf:   20 20                   and    BYTE PTR [eax],ah
+10c1:   20 20                   and    BYTE PTR [eax],ah
+10c3:   20 20                   and    BYTE PTR [eax],ah
+10c5:   20 20                   and    BYTE PTR [eax],ah
+10c7:   20 20                   and    BYTE PTR [eax],ah
+10c9:   20 20                   and    BYTE PTR [eax],ah
+10cb:   20 20                   and    BYTE PTR [eax],ah
+10cd:   20 20                   and    BYTE PTR [eax],ah
+10cf:   20 20                   and    BYTE PTR [eax],ah
+10d1:   20 20                   and    BYTE PTR [eax],ah
+10d3:   20 20                   and    BYTE PTR [eax],ah
+10d5:   20 20                   and    BYTE PTR [eax],ah
+10d7:   20 20                   and    BYTE PTR [eax],ah
+10d9:   20 20                   and    BYTE PTR [eax],ah
+10db:   20 20                   and    BYTE PTR [eax],ah
+10dd:   20 20                   and    BYTE PTR [eax],ah
+10df:   0a 32                   or     dh,BYTE PTR [edx]
+10e1:   34 32                   xor    al,0x32
+10e3:   36 31 31                xor    DWORD PTR ss:[ecx],esi
+10e6:   32 20                   xor    ah,BYTE PTR [eax]
+10e8:   20 38                   and    BYTE PTR [eax],bh
+10ea:   41                      inc    ecx
+10eb:   20 30                   and    BYTE PTR [eax],dh
+10ed:   30 20                   xor    BYTE PTR [eax],ah
+10ef:   34 31                   xor    al,0x31
+10f1:   20 32                   and    BYTE PTR [edx],dh
+10f3:   43                      inc    ebx
+10f4:   20 44 37 20             and    BYTE PTR [edi+esi*1+0x20],al
+10f8:   30 30                   xor    BYTE PTR [eax],dh
+10fa:   20 33                   and    BYTE PTR [ebx],dh
+10fc:   35 20 30 44 20          xor    eax,0x20443020
+1101:   34 31                   xor    al,0x31
+1103:   20 30                   and    BYTE PTR [eax],dh
+1105:   34 20                   xor    al,0x20
+1107:   32 33                   xor    dh,BYTE PTR [ebx]
+1109:   20 34 32                and    BYTE PTR [edx+esi*1],dh
+110c:   20 37                   and    BYTE PTR [edi],dh
+110e:   34 20                   xor    al,0x20
+1110:   37                      aaa
+1111:   30 20                   xor    BYTE PTR [eax],ah
+1113:   32 34 20                xor    dh,BYTE PTR [eax+eiz*1]
+1116:   31 31                   xor    DWORD PTR [ecx],esi
+1118:   20 20                   and    BYTE PTR [eax],ah
+111a:   20 2e                   and    BYTE PTR [esi],ch
+111c:   2e 41                   cs inc ecx
+111e:   2c 2e                   sub    al,0x2e
+1120:   2e 35 2e 41 2e 23       cs xor eax,0x232e412e
+1126:   42                      inc    edx
+1127:   74 70                   je     0x1199
+1129:   24 2e                   and    al,0x2e
+112b:   20 20                   and    BYTE PTR [eax],ah
+112d:   20 20                   and    BYTE PTR [eax],ah
+112f:   20 20                   and    BYTE PTR [eax],ah
+1131:   20 20                   and    BYTE PTR [eax],ah
+1133:   20 20                   and    BYTE PTR [eax],ah
+1135:   20 20                   and    BYTE PTR [eax],ah
+1137:   20 20                   and    BYTE PTR [eax],ah
+1139:   20 20                   and    BYTE PTR [eax],ah
+113b:   20 20                   and    BYTE PTR [eax],ah
+113d:   20 20                   and    BYTE PTR [eax],ah
+113f:   20 20                   and    BYTE PTR [eax],ah
+1141:   20 20                   and    BYTE PTR [eax],ah
+1143:   20 20                   and    BYTE PTR [eax],ah
+1145:   20 20                   and    BYTE PTR [eax],ah
+1147:   20 20                   and    BYTE PTR [eax],ah
+1149:   20 20                   and    BYTE PTR [eax],ah
+114b:   20 20                   and    BYTE PTR [eax],ah
+114d:   20 20                   and    BYTE PTR [eax],ah
+114f:   20 20                   and    BYTE PTR [eax],ah
+1151:   20 20                   and    BYTE PTR [eax],ah
+1153:   20 20                   and    BYTE PTR [eax],ah
+1155:   20 20                   and    BYTE PTR [eax],ah
+1157:   20 20                   and    BYTE PTR [eax],ah
+1159:   20 20                   and    BYTE PTR [eax],ah
+115b:   20 20                   and    BYTE PTR [eax],ah
+115d:   20 20                   and    BYTE PTR [eax],ah
+115f:   20 20                   and    BYTE PTR [eax],ah
+1161:   20 20                   and    BYTE PTR [eax],ah
+1163:   20 20                   and    BYTE PTR [eax],ah
+1165:   20 20                   and    BYTE PTR [eax],ah
+1167:   20 20                   and    BYTE PTR [eax],ah
+1169:   20 20                   and    BYTE PTR [eax],ah
+116b:   20 20                   and    BYTE PTR [eax],ah
+116d:   20 20                   and    BYTE PTR [eax],ah
+116f:   0a 32                   or     dh,BYTE PTR [edx]
+1171:   34 32                   xor    al,0x32
+1173:   36 31 33                xor    DWORD PTR ss:[ebx],esi
+1176:   32 20                   xor    ah,BYTE PTR [eax]
+1178:   20 41 41                and    BYTE PTR [ecx+0x41],al
+117b:   20 35 43 20 30 39       and    BYTE PTR ds:0x39302043,dh
+1181:   20 35 45 20 39 43       and    BYTE PTR ds:0x43392045,dh
+1187:   20 34 44                and    BYTE PTR [esp+eax*2],dh
+118a:   20 44 33 20             and    BYTE PTR [ebx+esi*1+0x20],al
+118e:   33 30                   xor    esi,DWORD PTR [eax]
+1190:   20 30                   and    BYTE PTR [eax],dh
+1192:   31 20                   xor    DWORD PTR [eax],esp
+1194:   33 38                   xor    edi,DWORD PTR [eax]
+1196:   20 43 30                and    BYTE PTR [ebx+0x30],al
+1199:   20 36                   and    BYTE PTR [esi],dh
+119b:   35 20 35 37 20          xor    eax,0x20373520
+11a0:   35 44 20 43 37          xor    eax,0x37432044
+11a5:   20 34 35 20 20 20 2e    and    BYTE PTR [esi*1+0x2e202020],dh
+11ac:   5c                      pop    esp
+11ad:   2e 5e                   cs pop esi
+11af:   2e 4d                   cs dec ebp
+11b1:   2e 30 2e                xor    BYTE PTR cs:[esi],ch
+11b4:   38 2e                   cmp    BYTE PTR [esi],ch
+11b6:   65 57                   gs push edi
+11b8:   5d                      pop    ebp
+11b9:   2e 45                   cs inc ebp
+11bb:   20 20                   and    BYTE PTR [eax],ah
+11bd:   20 20                   and    BYTE PTR [eax],ah
+11bf:   20 20                   and    BYTE PTR [eax],ah
+11c1:   20 20                   and    BYTE PTR [eax],ah
+11c3:   20 20                   and    BYTE PTR [eax],ah
+11c5:   20 20                   and    BYTE PTR [eax],ah
+11c7:   20 20                   and    BYTE PTR [eax],ah
+11c9:   20 20                   and    BYTE PTR [eax],ah
+11cb:   20 20                   and    BYTE PTR [eax],ah
+11cd:   20 20                   and    BYTE PTR [eax],ah
+11cf:   20 20                   and    BYTE PTR [eax],ah
+11d1:   20 20                   and    BYTE PTR [eax],ah
+11d3:   20 20                   and    BYTE PTR [eax],ah
+11d5:   20 20                   and    BYTE PTR [eax],ah
+11d7:   20 20                   and    BYTE PTR [eax],ah
+11d9:   20 20                   and    BYTE PTR [eax],ah
+11db:   20 20                   and    BYTE PTR [eax],ah
+11dd:   20 20                   and    BYTE PTR [eax],ah
+11df:   20 20                   and    BYTE PTR [eax],ah
+11e1:   20 20                   and    BYTE PTR [eax],ah
+11e3:   20 20                   and    BYTE PTR [eax],ah
+11e5:   20 20                   and    BYTE PTR [eax],ah
+11e7:   20 20                   and    BYTE PTR [eax],ah
+11e9:   20 20                   and    BYTE PTR [eax],ah
+11eb:   20 20                   and    BYTE PTR [eax],ah
+11ed:   20 20                   and    BYTE PTR [eax],ah
+11ef:   20 20                   and    BYTE PTR [eax],ah
+11f1:   20 20                   and    BYTE PTR [eax],ah
+11f3:   20 20                   and    BYTE PTR [eax],ah
+11f5:   20 20                   and    BYTE PTR [eax],ah
+11f7:   20 20                   and    BYTE PTR [eax],ah
+11f9:   20 20                   and    BYTE PTR [eax],ah
+11fb:   20 20                   and    BYTE PTR [eax],ah
+11fd:   20 20                   and    BYTE PTR [eax],ah
+11ff:   0a 32                   or     dh,BYTE PTR [edx]
+1201:   34 32                   xor    al,0x32
+1203:   36 31 35 32 20 20 34    xor    DWORD PTR ss:0x34202032,esi
+120a:   30 20                   xor    BYTE PTR [eax],ah
+120c:   36 36 20 45 36          ss and BYTE PTR ss:[ebp+0x36],al
+1211:   20 33                   and    BYTE PTR [ebx],dh
+1213:   31 20                   xor    DWORD PTR [eax],esp
+1215:   34 39                   xor    al,0x39
+1217:   20 37                   and    BYTE PTR [edi],dh
+1219:   38 20                   cmp    BYTE PTR [eax],ah
+121b:   42                      inc    edx
+121c:   32 20                   xor    ah,BYTE PTR [eax]
+121e:   31 36                   xor    DWORD PTR [esi],esi
+1220:   20 34 31                and    BYTE PTR [ecx+esi*1],dh
+1223:   20 31                   and    BYTE PTR [ecx],dh
+1225:   30 20                   xor    BYTE PTR [eax],ah
+1227:   32 32                   xor    dh,BYTE PTR [edx]
+1229:   20 37                   and    BYTE PTR [edi],dh
+122b:   39 20                   cmp    DWORD PTR [eax],esp
+122d:   35 39 20 31 36          xor    eax,0x36312039
+1232:   20 34 35 20 34 38 20    and    BYTE PTR [esi*1+0x20383420],dh
+1239:   20 20                   and    BYTE PTR [eax],ah
+123b:   40                      inc    eax
+123c:   66 2e 31 49 78          xor    WORD PTR cs:[ecx+0x78],cx
+1241:   2e 2e 41                cs cs inc ecx
+1244:   2e 22 79 59             and    bh,BYTE PTR cs:[ecx+0x59]
+1248:   2e 45                   cs inc ebp
+124a:   48                      dec    eax
+124b:   20 20                   and    BYTE PTR [eax],ah
+124d:   20 20                   and    BYTE PTR [eax],ah
+124f:   20 20                   and    BYTE PTR [eax],ah
+1251:   20 20                   and    BYTE PTR [eax],ah
+1253:   20 20                   and    BYTE PTR [eax],ah
+1255:   20 20                   and    BYTE PTR [eax],ah
+1257:   20 20                   and    BYTE PTR [eax],ah
+1259:   20 20                   and    BYTE PTR [eax],ah
+125b:   20 20                   and    BYTE PTR [eax],ah
+125d:   20 20                   and    BYTE PTR [eax],ah
+125f:   20 20                   and    BYTE PTR [eax],ah
+1261:   20 20                   and    BYTE PTR [eax],ah
+1263:   20 20                   and    BYTE PTR [eax],ah
+1265:   20 20                   and    BYTE PTR [eax],ah
+1267:   20 20                   and    BYTE PTR [eax],ah
+1269:   20 20                   and    BYTE PTR [eax],ah
+126b:   20 20                   and    BYTE PTR [eax],ah
+126d:   20 20                   and    BYTE PTR [eax],ah
+126f:   20 20                   and    BYTE PTR [eax],ah
+1271:   20 20                   and    BYTE PTR [eax],ah
+1273:   20 20                   and    BYTE PTR [eax],ah
+1275:   20 20                   and    BYTE PTR [eax],ah
+1277:   20 20                   and    BYTE PTR [eax],ah
+1279:   20 20                   and    BYTE PTR [eax],ah
+127b:   20 20                   and    BYTE PTR [eax],ah
+127d:   20 20                   and    BYTE PTR [eax],ah
+127f:   20 20                   and    BYTE PTR [eax],ah
+1281:   20 20                   and    BYTE PTR [eax],ah
+1283:   20 20                   and    BYTE PTR [eax],ah
+1285:   20 20                   and    BYTE PTR [eax],ah
+1287:   20 20                   and    BYTE PTR [eax],ah
+1289:   20 20                   and    BYTE PTR [eax],ah
+128b:   20 20                   and    BYTE PTR [eax],ah
+128d:   20 20                   and    BYTE PTR [eax],ah
+128f:   0a 32                   or     dh,BYTE PTR [edx]
+1291:   34 32                   xor    al,0x32
+1293:   36 31 37                xor    DWORD PTR ss:[edi],esi
+1296:   32 20                   xor    ah,BYTE PTR [eax]
+1298:   20 32                   and    BYTE PTR [edx],dh
+129a:   34 20                   xor    al,0x20
+129c:   36 32 20                xor    ah,BYTE PTR ss:[eax]
+129f:   39 32                   cmp    DWORD PTR [edx],esi
+12a1:   20 32                   and    BYTE PTR [edx],dh
+12a3:   42                      inc    edx
+12a4:   20 32                   and    BYTE PTR [edx],dh
+12a6:   45                      inc    ebp
+12a7:   20 34 39                and    BYTE PTR [ecx+edi*1],dh
+12aa:   20 35 38 20 30 30       and    BYTE PTR ds:0x30302038,dh
+12b0:   20 33                   and    BYTE PTR [ebx],dh
+12b2:   37                      aaa
+12b3:   20 30                   and    BYTE PTR [eax],dh
+12b5:   38 20                   cmp    BYTE PTR [eax],ah
+12b7:   33 38                   xor    edi,DWORD PTR [eax]
+12b9:   20 36                   and    BYTE PTR [esi],dh
+12bb:   41                      inc    ecx
+12bc:   20 45 41                and    BYTE PTR [ebp+0x41],al
+12bf:   20 30                   and    BYTE PTR [eax],dh
+12c1:   30 20                   xor    BYTE PTR [eax],ah
+12c3:   35 33 20 31 33          xor    eax,0x33312033
+12c8:   20 20                   and    BYTE PTR [eax],ah
+12ca:   20 24 62                and    BYTE PTR [edx+eiz*2],ah
+12cd:   2e 2b 2e                sub    ebp,DWORD PTR cs:[esi]
+12d0:   49                      dec    ecx
+12d1:   58                      pop    eax
+12d2:   2e 37                   cs aaa
+12d4:   2e 38 6a 2e             cmp    BYTE PTR cs:[edx+0x2e],ch
+12d8:   2e 53                   cs push ebx
+12da:   2e 20 20                and    BYTE PTR cs:[eax],ah
+12dd:   20 20                   and    BYTE PTR [eax],ah
+12df:   20 20                   and    BYTE PTR [eax],ah
+12e1:   20 20                   and    BYTE PTR [eax],ah
+12e3:   20 20                   and    BYTE PTR [eax],ah
+12e5:   20 20                   and    BYTE PTR [eax],ah
+12e7:   20 20                   and    BYTE PTR [eax],ah
+12e9:   20 20                   and    BYTE PTR [eax],ah
+12eb:   20 20                   and    BYTE PTR [eax],ah
+12ed:   20 20                   and    BYTE PTR [eax],ah
+12ef:   20 20                   and    BYTE PTR [eax],ah
+12f1:   20 20                   and    BYTE PTR [eax],ah
+12f3:   20 20                   and    BYTE PTR [eax],ah
+12f5:   20 20                   and    BYTE PTR [eax],ah
+12f7:   20 20                   and    BYTE PTR [eax],ah
+12f9:   20 20                   and    BYTE PTR [eax],ah
+12fb:   20 20                   and    BYTE PTR [eax],ah
+12fd:   20 20                   and    BYTE PTR [eax],ah
+12ff:   20 20                   and    BYTE PTR [eax],ah
+1301:   20 20                   and    BYTE PTR [eax],ah
+1303:   20 20                   and    BYTE PTR [eax],ah
+1305:   20 20                   and    BYTE PTR [eax],ah
+1307:   20 20                   and    BYTE PTR [eax],ah
+1309:   20 20                   and    BYTE PTR [eax],ah
+130b:   20 20                   and    BYTE PTR [eax],ah
+130d:   20 20                   and    BYTE PTR [eax],ah
+130f:   20 20                   and    BYTE PTR [eax],ah
+1311:   20 20                   and    BYTE PTR [eax],ah
+1313:   20 20                   and    BYTE PTR [eax],ah
+1315:   20 20                   and    BYTE PTR [eax],ah
+1317:   20 20                   and    BYTE PTR [eax],ah
+1319:   20 20                   and    BYTE PTR [eax],ah
+131b:   20 20                   and    BYTE PTR [eax],ah
+131d:   20 20                   and    BYTE PTR [eax],ah
+131f:   0a 32                   or     dh,BYTE PTR [edx]
+1321:   34 32                   xor    al,0x32
+1323:   36 32 31                xor    dh,BYTE PTR ss:[ecx]
+1326:   32 20                   xor    ah,BYTE PTR [eax]
+1328:   20 38                   and    BYTE PTR [eax],bh
+132a:   34 20                   xor    al,0x20
+132c:   31 38                   xor    DWORD PTR [eax],edi
+132e:   20 39                   and    BYTE PTR [ecx],bh
+1330:   33 20                   xor    esp,DWORD PTR [eax]
+1332:   31 33                   xor    DWORD PTR [ebx],esi
+1334:   20 32                   and    BYTE PTR [edx],dh
+1336:   34 20                   xor    al,0x20
+1338:   32 38                   xor    bh,BYTE PTR [eax]
+133a:   20 38                   and    BYTE PTR [eax],bh
+133c:   39 20                   cmp    DWORD PTR [eax],esp
+133e:   30 30                   xor    BYTE PTR [eax],dh
+1340:   20 32                   and    BYTE PTR [edx],dh
+1342:   38 20                   cmp    BYTE PTR [eax],ah
+1344:   33 32                   xor    esi,DWORD PTR [edx]
+1346:   20 38                   and    BYTE PTR [eax],bh
+1348:   30 20                   xor    BYTE PTR [eax],ah
+134a:   30 41 20                xor    BYTE PTR [ecx+0x20],al
+134d:   33 31                   xor    esi,DWORD PTR [ecx]
+134f:   20 33                   and    BYTE PTR [ebx],dh
+1351:   42                      inc    edx
+1352:   20 36                   and    BYTE PTR [esi],dh
+1354:   45                      inc    ebp
+1355:   20 34 44                and    BYTE PTR [esp+eax*2],dh
+1358:   20 20                   and    BYTE PTR [eax],ah
+135a:   20 2e                   and    BYTE PTR [esi],ch
+135c:   2e 2e 2e 24 28          cs cs cs and al,0x28
+1361:   2e 2e 28 32             cs sub BYTE PTR cs:[edx],dh
+1365:   2e 2e 31 3b             cs xor DWORD PTR cs:[ebx],edi
+1369:   6e                      outs   dx,BYTE PTR ds:[esi]
+136a:   4d                      dec    ebp
+136b:   20 20                   and    BYTE PTR [eax],ah
+136d:   20 20                   and    BYTE PTR [eax],ah
+136f:   20 20                   and    BYTE PTR [eax],ah
+1371:   20 20                   and    BYTE PTR [eax],ah
+1373:   20 20                   and    BYTE PTR [eax],ah
+1375:   20 20                   and    BYTE PTR [eax],ah
+1377:   20 20                   and    BYTE PTR [eax],ah
+1379:   20 20                   and    BYTE PTR [eax],ah
+137b:   20 20                   and    BYTE PTR [eax],ah
+137d:   20 20                   and    BYTE PTR [eax],ah
+137f:   20 20                   and    BYTE PTR [eax],ah
+1381:   20 20                   and    BYTE PTR [eax],ah
+1383:   20 20                   and    BYTE PTR [eax],ah
+1385:   20 20                   and    BYTE PTR [eax],ah
+1387:   20 20                   and    BYTE PTR [eax],ah
+1389:   20 20                   and    BYTE PTR [eax],ah
+138b:   20 20                   and    BYTE PTR [eax],ah
+138d:   20 20                   and    BYTE PTR [eax],ah
+138f:   20 20                   and    BYTE PTR [eax],ah
+1391:   20 20                   and    BYTE PTR [eax],ah
+1393:   20 20                   and    BYTE PTR [eax],ah
+1395:   20 20                   and    BYTE PTR [eax],ah
+1397:   20 20                   and    BYTE PTR [eax],ah
+1399:   20 20                   and    BYTE PTR [eax],ah
+139b:   20 20                   and    BYTE PTR [eax],ah
+139d:   20 20                   and    BYTE PTR [eax],ah
+139f:   20 20                   and    BYTE PTR [eax],ah
+13a1:   20 20                   and    BYTE PTR [eax],ah
+13a3:   20 20                   and    BYTE PTR [eax],ah
+13a5:   20 20                   and    BYTE PTR [eax],ah
+13a7:   20 20                   and    BYTE PTR [eax],ah
+13a9:   20 20                   and    BYTE PTR [eax],ah
+13ab:   20 20                   and    BYTE PTR [eax],ah
+13ad:   20 20                   and    BYTE PTR [eax],ah
+13af:   0a 32                   or     dh,BYTE PTR [edx]
+13b1:   34 32                   xor    al,0x32
+13b3:   36 32 33                xor    dh,BYTE PTR ss:[ebx]
+13b6:   32 20                   xor    ah,BYTE PTR [eax]
+13b8:   20 38                   and    BYTE PTR [eax],bh
+13ba:   35 20 34 38 20          xor    eax,0x20383420
+13bf:   42                      inc    edx
+13c0:   39 20                   cmp    DWORD PTR [eax],esp
+13c2:   30 30                   xor    BYTE PTR [eax],dh
+13c4:   20 36                   and    BYTE PTR [esi],dh
+13c6:   31 20                   xor    DWORD PTR [eax],esp
+13c8:   36 37                   ss aaa
+13ca:   20 35 37 20 34 46       and    BYTE PTR ds:0x46342037,dh
+13d0:   20 30                   and    BYTE PTR [eax],dh
+13d2:   30 20                   xor    BYTE PTR [eax],ah
+13d4:   30 37                   xor    BYTE PTR [edi],dh
+13d6:   20 38                   and    BYTE PTR [eax],bh
+13d8:   42                      inc    edx
+13d9:   20 31                   and    BYTE PTR [ecx],dh
+13db:   39 20                   cmp    DWORD PTR [eax],esp
+13dd:   30 41 20                xor    BYTE PTR [ecx+0x20],al
+13e0:   30 30                   xor    BYTE PTR [eax],dh
+13e2:   20 44 43 20             and    BYTE PTR [ebx+eax*2+0x20],al
+13e6:   31 42 20                xor    DWORD PTR [edx+0x20],eax
+13e9:   20 20                   and    BYTE PTR [eax],ah
+13eb:   2e 48                   cs dec eax
+13ed:   2e 2e 61                cs cs popa
+13f0:   67 57                   addr16 push edi
+13f2:   4f                      dec    edi
+13f3:   2e 2e 2e 2e 2e 2e 2e    cs cs cs cs cs cs cs and BYTE PTR cs:[eax],ah
+13fa:   2e 20 20
+13fd:   20 20                   and    BYTE PTR [eax],ah
+13ff:   20 20                   and    BYTE PTR [eax],ah
+1401:   20 20                   and    BYTE PTR [eax],ah
+1403:   20 20                   and    BYTE PTR [eax],ah
+1405:   20 20                   and    BYTE PTR [eax],ah
+1407:   20 20                   and    BYTE PTR [eax],ah
+1409:   20 20                   and    BYTE PTR [eax],ah
+140b:   20 20                   and    BYTE PTR [eax],ah
+140d:   20 20                   and    BYTE PTR [eax],ah
+140f:   20 20                   and    BYTE PTR [eax],ah
+1411:   20 20                   and    BYTE PTR [eax],ah
+1413:   20 20                   and    BYTE PTR [eax],ah
+1415:   20 20                   and    BYTE PTR [eax],ah
+1417:   20 20                   and    BYTE PTR [eax],ah
+1419:   20 20                   and    BYTE PTR [eax],ah
+141b:   20 20                   and    BYTE PTR [eax],ah
+141d:   20 20                   and    BYTE PTR [eax],ah
+141f:   20 20                   and    BYTE PTR [eax],ah
+1421:   20 20                   and    BYTE PTR [eax],ah
+1423:   20 20                   and    BYTE PTR [eax],ah
+1425:   20 20                   and    BYTE PTR [eax],ah
+1427:   20 20                   and    BYTE PTR [eax],ah
+1429:   20 20                   and    BYTE PTR [eax],ah
+142b:   20 20                   and    BYTE PTR [eax],ah
+142d:   20 20                   and    BYTE PTR [eax],ah
+142f:   20 20                   and    BYTE PTR [eax],ah
+1431:   20 20                   and    BYTE PTR [eax],ah
+1433:   20 20                   and    BYTE PTR [eax],ah
+1435:   20 20                   and    BYTE PTR [eax],ah
+1437:   20 20                   and    BYTE PTR [eax],ah
+1439:   20 20                   and    BYTE PTR [eax],ah
+143b:   20 20                   and    BYTE PTR [eax],ah
+143d:   20 20                   and    BYTE PTR [eax],ah
+143f:   0a 32                   or     dh,BYTE PTR [edx]
+1441:   34 32                   xor    al,0x32
+1443:   36 32 35 32 20 20 43    xor    dh,BYTE PTR ss:0x43202032
+144a:   30 20                   xor    BYTE PTR [eax],ah
+144c:   30 35 20 30 44 20       xor    BYTE PTR ds:0x20443020,dh
+1452:   33 39                   xor    edi,DWORD PTR [ecx]
+1454:   20 32                   and    BYTE PTR [edx],dh
+1456:   41                      inc    ecx
+1457:   20 30                   and    BYTE PTR [eax],dh
+1459:   30 20                   xor    BYTE PTR [eax],ah
+145b:   43                      inc    ebx
+145c:   30 20                   xor    BYTE PTR [eax],ah
+145e:   36 35 20 34 36 20       ss xor eax,0x20363420
+1464:   44                      inc    esp
+1465:   43                      inc    ebx
+1466:   20 42 32                and    BYTE PTR [edx+0x32],al
+1469:   20 34 31                and    BYTE PTR [ecx+esi*1],dh
+146c:   20 30                   and    BYTE PTR [eax],dh
+146e:   32 20                   xor    ah,BYTE PTR [eax]
+1470:   31 31                   xor    DWORD PTR [ecx],esi
+1472:   20 30                   and    BYTE PTR [eax],dh
+1474:   30 20                   xor    BYTE PTR [eax],ah
+1476:   35 43 20 20 20          xor    eax,0x20202043
+147b:   2e 2e 2e 39 2a          cs cs cmp DWORD PTR cs:[edx],ebp
+1480:   2e 2e 65 46             cs cs gs inc esi
+1484:   2e 2e 41                cs cs inc ecx
+1487:   2e 2e 2e 5c             cs cs cs pop esp
+148b:   20 20                   and    BYTE PTR [eax],ah
+148d:   20 20                   and    BYTE PTR [eax],ah
+148f:   20 20                   and    BYTE PTR [eax],ah
+1491:   20 20                   and    BYTE PTR [eax],ah
+1493:   20 20                   and    BYTE PTR [eax],ah
+1495:   20 20                   and    BYTE PTR [eax],ah
+1497:   20 20                   and    BYTE PTR [eax],ah
+1499:   20 20                   and    BYTE PTR [eax],ah
+149b:   20 20                   and    BYTE PTR [eax],ah
+149d:   20 20                   and    BYTE PTR [eax],ah
+149f:   20 20                   and    BYTE PTR [eax],ah
+14a1:   20 20                   and    BYTE PTR [eax],ah
+14a3:   20 20                   and    BYTE PTR [eax],ah
+14a5:   20 20                   and    BYTE PTR [eax],ah
+14a7:   20 20                   and    BYTE PTR [eax],ah
+14a9:   20 20                   and    BYTE PTR [eax],ah
+14ab:   20 20                   and    BYTE PTR [eax],ah
+14ad:   20 20                   and    BYTE PTR [eax],ah
+14af:   20 20                   and    BYTE PTR [eax],ah
+14b1:   20 20                   and    BYTE PTR [eax],ah
+14b3:   20 20                   and    BYTE PTR [eax],ah
+14b5:   20 20                   and    BYTE PTR [eax],ah
+14b7:   20 20                   and    BYTE PTR [eax],ah
+14b9:   20 20                   and    BYTE PTR [eax],ah
+14bb:   20 20                   and    BYTE PTR [eax],ah
+14bd:   20 20                   and    BYTE PTR [eax],ah
+14bf:   20 20                   and    BYTE PTR [eax],ah
+14c1:   20 20                   and    BYTE PTR [eax],ah
+14c3:   20 20                   and    BYTE PTR [eax],ah
+14c5:   20 20                   and    BYTE PTR [eax],ah
+14c7:   20 20                   and    BYTE PTR [eax],ah
+14c9:   20 20                   and    BYTE PTR [eax],ah
+14cb:   20 20                   and    BYTE PTR [eax],ah
+14cd:   20 20                   and    BYTE PTR [eax],ah
+14cf:   0a 32                   or     dh,BYTE PTR [edx]
+14d1:   34 32                   xor    al,0x32
+14d3:   36 32 37                xor    dh,BYTE PTR ss:[edi]
+14d6:   32 20                   xor    ah,BYTE PTR [eax]
+14d8:   20 42 32                and    BYTE PTR [edx+0x32],al
+14db:   20 31                   and    BYTE PTR [ecx],dh
+14dd:   37                      aaa
+14de:   20 32                   and    BYTE PTR [edx],dh
+14e0:   34 20                   xor    al,0x20
+14e2:   35 31 20 41 31          xor    eax,0x31412031
+14e7:   20 30                   and    BYTE PTR [eax],dh
+14e9:   34 20                   xor    al,0x20
+14eb:   32 33                   xor    dh,BYTE PTR [ebx]
+14ed:   20 34 39                and    BYTE PTR [ecx+edi*1],dh
+14f0:   20 34 36                and    BYTE PTR [esi+esi*1],dh
+14f3:   20 34 43                and    BYTE PTR [ebx+eax*2],dh
+14f6:   20 30                   and    BYTE PTR [eax],dh
+14f8:   33 20                   xor    esp,DWORD PTR [eax]
+14fa:   33 41 20                xor    eax,DWORD PTR [ecx+0x20]
+14fd:   42                      inc    edx
+14fe:   34 20                   xor    al,0x20
+1500:   35 46 20 33 37          xor    eax,0x37332046
+1505:   20 31                   and    BYTE PTR [ecx],dh
+1507:   38 20                   cmp    BYTE PTR [eax],ah
+1509:   20 20                   and    BYTE PTR [eax],ah
+150b:   2e 2e 24 51             cs cs and al,0x51
+150f:   2e 2e 23 49 46          cs and ecx,DWORD PTR cs:[ecx+0x46]
+1514:   4c                      dec    esp
+1515:   2e 3a 2e                cmp    ch,BYTE PTR cs:[esi]
+1518:   5f                      pop    edi
+1519:   37                      aaa
+151a:   2e 20 20                and    BYTE PTR cs:[eax],ah
+151d:   20 20                   and    BYTE PTR [eax],ah
+151f:   20 20                   and    BYTE PTR [eax],ah
+1521:   20 20                   and    BYTE PTR [eax],ah
+1523:   20 20                   and    BYTE PTR [eax],ah
+1525:   20 20                   and    BYTE PTR [eax],ah
+1527:   20 20                   and    BYTE PTR [eax],ah
+1529:   20 20                   and    BYTE PTR [eax],ah
+152b:   20 20                   and    BYTE PTR [eax],ah
+152d:   20 20                   and    BYTE PTR [eax],ah
+152f:   20 20                   and    BYTE PTR [eax],ah
+1531:   20 20                   and    BYTE PTR [eax],ah
+1533:   20 20                   and    BYTE PTR [eax],ah
+1535:   20 20                   and    BYTE PTR [eax],ah
+1537:   20 20                   and    BYTE PTR [eax],ah
+1539:   20 20                   and    BYTE PTR [eax],ah
+153b:   20 20                   and    BYTE PTR [eax],ah
+153d:   20 20                   and    BYTE PTR [eax],ah
+153f:   20 20                   and    BYTE PTR [eax],ah
+1541:   20 20                   and    BYTE PTR [eax],ah
+1543:   20 20                   and    BYTE PTR [eax],ah
+1545:   20 20                   and    BYTE PTR [eax],ah
+1547:   20 20                   and    BYTE PTR [eax],ah
+1549:   20 20                   and    BYTE PTR [eax],ah
+154b:   20 20                   and    BYTE PTR [eax],ah
+154d:   20 20                   and    BYTE PTR [eax],ah
+154f:   20 20                   and    BYTE PTR [eax],ah
+1551:   20 20                   and    BYTE PTR [eax],ah
+1553:   20 20                   and    BYTE PTR [eax],ah
+1555:   20 20                   and    BYTE PTR [eax],ah
+1557:   20 20                   and    BYTE PTR [eax],ah
+1559:   20 20                   and    BYTE PTR [eax],ah
+155b:   20 20                   and    BYTE PTR [eax],ah
+155d:   20 20                   and    BYTE PTR [eax],ah
+155f:   0a 32                   or     dh,BYTE PTR [edx]
+1561:   34 32                   xor    al,0x32
+1563:   36 33 31                xor    esi,DWORD PTR ss:[ecx]
+1566:   32 20                   xor    ah,BYTE PTR [eax]
+1568:   20 33                   and    BYTE PTR [ebx],dh
+156a:   39 20                   cmp    DWORD PTR [eax],esp
+156c:   30 35 20 36 39 20       xor    BYTE PTR ds:0x20393620,dh
+1572:   32 38                   xor    bh,BYTE PTR [eax]
+1574:   20 44 37 20             and    BYTE PTR [edi+esi*1+0x20],al
+1578:   38 30                   cmp    BYTE PTR [eax],dh
+157a:   20 41 35                and    BYTE PTR [ecx+0x35],al
+157d:   20 39                   and    BYTE PTR [ecx],bh
+157f:   41                      inc    ecx
+1580:   20 41 32                and    BYTE PTR [ecx+0x32],al
+1583:   20 42 33                and    BYTE PTR [edx+0x33],al
+1586:   20 30                   and    BYTE PTR [eax],dh
+1588:   34 20                   xor    al,0x20
+158a:   38 31                   cmp    BYTE PTR [ecx],dh
+158c:   20 33                   and    BYTE PTR [ebx],dh
+158e:   30 20                   xor    BYTE PTR [eax],ah
+1590:   33 33                   xor    esi,DWORD PTR [ebx]
+1592:   20 31                   and    BYTE PTR [ecx],dh
+1594:   44                      inc    esp
+1595:   20 35 31 20 20 20       and    BYTE PTR ds:0x20202031,dh
+159b:   39 2e                   cmp    DWORD PTR [esi],ebp
+159d:   69 28 2e 2e 2e 2e       imul   ebp,DWORD PTR [eax],0x2e2e2e2e
+15a3:   2e 2e 2e 2e 30 33       cs cs cs xor BYTE PTR cs:[ebx],dh
+15a9:   2e 51                   cs push ecx
+15ab:   20 20                   and    BYTE PTR [eax],ah
+15ad:   20 20                   and    BYTE PTR [eax],ah
+15af:   20 20                   and    BYTE PTR [eax],ah
+15b1:   20 20                   and    BYTE PTR [eax],ah
+15b3:   20 20                   and    BYTE PTR [eax],ah
+15b5:   20 20                   and    BYTE PTR [eax],ah
+15b7:   20 20                   and    BYTE PTR [eax],ah
+15b9:   20 20                   and    BYTE PTR [eax],ah
+15bb:   20 20                   and    BYTE PTR [eax],ah
+15bd:   20 20                   and    BYTE PTR [eax],ah
+15bf:   20 20                   and    BYTE PTR [eax],ah
+15c1:   20 20                   and    BYTE PTR [eax],ah
+15c3:   20 20                   and    BYTE PTR [eax],ah
+15c5:   20 20                   and    BYTE PTR [eax],ah
+15c7:   20 20                   and    BYTE PTR [eax],ah
+15c9:   20 20                   and    BYTE PTR [eax],ah
+15cb:   20 20                   and    BYTE PTR [eax],ah
+15cd:   20 20                   and    BYTE PTR [eax],ah
+15cf:   20 20                   and    BYTE PTR [eax],ah
+15d1:   20 20                   and    BYTE PTR [eax],ah
+15d3:   20 20                   and    BYTE PTR [eax],ah
+15d5:   20 20                   and    BYTE PTR [eax],ah
+15d7:   20 20                   and    BYTE PTR [eax],ah
+15d9:   20 20                   and    BYTE PTR [eax],ah
+15db:   20 20                   and    BYTE PTR [eax],ah
+15dd:   20 20                   and    BYTE PTR [eax],ah
+15df:   20 20                   and    BYTE PTR [eax],ah
+15e1:   20 20                   and    BYTE PTR [eax],ah
+15e3:   20 20                   and    BYTE PTR [eax],ah
+15e5:   20 20                   and    BYTE PTR [eax],ah
+15e7:   20 20                   and    BYTE PTR [eax],ah
+15e9:   20 20                   and    BYTE PTR [eax],ah
+15eb:   20 20                   and    BYTE PTR [eax],ah
+15ed:   20 20                   and    BYTE PTR [eax],ah
+15ef:   0a 32                   or     dh,BYTE PTR [edx]
+15f1:   34 32                   xor    al,0x32
+15f3:   36 33 33                xor    esi,DWORD PTR ss:[ebx]
+15f6:   32 20                   xor    ah,BYTE PTR [eax]
+15f8:   20 33                   and    BYTE PTR [ebx],dh
+15fa:   39 20                   cmp    DWORD PTR [eax],esp
+15fc:   35 42 20 32 38          xor    eax,0x38322042
+1601:   20 30                   and    BYTE PTR [eax],dh
+1603:   31 20                   xor    DWORD PTR [eax],esp
+1605:   33 31                   xor    esi,DWORD PTR [ecx]
+1607:   20 35 42 20 32 41       and    BYTE PTR ds:0x41322042,dh
+160d:   20 45 30                and    BYTE PTR [ebp+0x30],al
+1610:   20 36                   and    BYTE PTR [esi],dh
+1612:   30 20                   xor    BYTE PTR [eax],ah
+1614:   44                      inc    esp
+1615:   43                      inc    ebx
+1616:   20 30                   and    BYTE PTR [eax],dh
+1618:   33 20                   xor    esp,DWORD PTR [eax]
+161a:   31 41 20                xor    DWORD PTR [ecx+0x20],eax
+161d:   32 31                   xor    dh,BYTE PTR [ecx]
+161f:   20 41 30                and    BYTE PTR [ecx+0x30],al
+1622:   20 36                   and    BYTE PTR [esi],dh
+1624:   32 20                   xor    ah,BYTE PTR [eax]
+1626:   30 31                   xor    BYTE PTR [ecx],dh
+1628:   20 20                   and    BYTE PTR [eax],ah
+162a:   20 39                   and    BYTE PTR [ecx],bh
+162c:   5b                      pop    ebx
+162d:   28 2e                   sub    BYTE PTR [esi],ch
+162f:   31 5b 2a                xor    DWORD PTR [ebx+0x2a],ebx
+1632:   2e 60                   cs pusha
+1634:   2e 2e 2e 21 2e          cs cs and DWORD PTR cs:[esi],ebp
+1639:   62 2e                   bound  ebp,QWORD PTR [esi]
+163b:   20 20                   and    BYTE PTR [eax],ah
+163d:   20 20                   and    BYTE PTR [eax],ah
+163f:   20 20                   and    BYTE PTR [eax],ah
+1641:   20 20                   and    BYTE PTR [eax],ah
+1643:   20 20                   and    BYTE PTR [eax],ah
+1645:   20 20                   and    BYTE PTR [eax],ah
+1647:   20 20                   and    BYTE PTR [eax],ah
+1649:   20 20                   and    BYTE PTR [eax],ah
+164b:   20 20                   and    BYTE PTR [eax],ah
+164d:   20 20                   and    BYTE PTR [eax],ah
+164f:   20 20                   and    BYTE PTR [eax],ah
+1651:   20 20                   and    BYTE PTR [eax],ah
+1653:   20 20                   and    BYTE PTR [eax],ah
+1655:   20 20                   and    BYTE PTR [eax],ah
+1657:   20 20                   and    BYTE PTR [eax],ah
+1659:   20 20                   and    BYTE PTR [eax],ah
+165b:   20 20                   and    BYTE PTR [eax],ah
+165d:   20 20                   and    BYTE PTR [eax],ah
+165f:   20 20                   and    BYTE PTR [eax],ah
+1661:   20 20                   and    BYTE PTR [eax],ah
+1663:   20 20                   and    BYTE PTR [eax],ah
+1665:   20 20                   and    BYTE PTR [eax],ah
+1667:   20 20                   and    BYTE PTR [eax],ah
+1669:   20 20                   and    BYTE PTR [eax],ah
+166b:   20 20                   and    BYTE PTR [eax],ah
+166d:   20 20                   and    BYTE PTR [eax],ah
+166f:   20 20                   and    BYTE PTR [eax],ah
+1671:   20 20                   and    BYTE PTR [eax],ah
+1673:   20 20                   and    BYTE PTR [eax],ah
+1675:   20 20                   and    BYTE PTR [eax],ah
+1677:   20 20                   and    BYTE PTR [eax],ah
+1679:   20 20                   and    BYTE PTR [eax],ah
+167b:   20 20                   and    BYTE PTR [eax],ah
+167d:   20 20                   and    BYTE PTR [eax],ah
+167f:   0a 32                   or     dh,BYTE PTR [edx]
+1681:   34 32                   xor    al,0x32
+1683:   36 33 35 32 20 20 34    xor    esi,DWORD PTR ss:0x34202032
+168a:   30 20                   xor    BYTE PTR [eax],ah
+168c:   34 45                   xor    al,0x45
+168e:   20 33                   and    BYTE PTR [ebx],dh
+1690:   35 20 35 37 20          xor    eax,0x20373520
+1695:   36 30 20                xor    BYTE PTR ss:[eax],ah
+1698:   42                      inc    edx
+1699:   32 20                   xor    ah,BYTE PTR [eax]
+169b:   31 36                   xor    DWORD PTR [esi],esi
+169d:   20 34 31                and    BYTE PTR [ecx+esi*1],dh
+16a0:   20 31                   and    BYTE PTR [ecx],dh
+16a2:   32 20                   xor    ah,BYTE PTR [eax]
+16a4:   39 37                   cmp    DWORD PTR [edi],esi
+16a6:   20 30                   and    BYTE PTR [eax],dh
+16a8:   33 20                   xor    esp,DWORD PTR [eax]
+16aa:   31 41 20                xor    DWORD PTR [ecx+0x20],eax
+16ad:   32 31                   xor    dh,BYTE PTR [ecx]
+16af:   20 41 30                and    BYTE PTR [ecx+0x30],al
+16b2:   20 33                   and    BYTE PTR [ebx],dh
+16b4:   34 20                   xor    al,0x20
+16b6:   43                      inc    ebx
+16b7:   45                      inc    ebp
+16b8:   20 20                   and    BYTE PTR [eax],ah
+16ba:   20 40 4e                and    BYTE PTR [eax+0x4e],al
+16bd:   35 57 60 2e 2e          xor    eax,0x2e2e6057
+16c2:   41                      inc    ecx
+16c3:   2e 2e 2e 2e 21 2e       cs cs cs and DWORD PTR cs:[esi],ebp
+16c9:   34 2e                   xor    al,0x2e
+16cb:   20 20                   and    BYTE PTR [eax],ah
+16cd:   20 20                   and    BYTE PTR [eax],ah
+16cf:   20 20                   and    BYTE PTR [eax],ah
+16d1:   20 20                   and    BYTE PTR [eax],ah
+16d3:   20 20                   and    BYTE PTR [eax],ah
+16d5:   20 20                   and    BYTE PTR [eax],ah
+16d7:   20 20                   and    BYTE PTR [eax],ah
+16d9:   20 20                   and    BYTE PTR [eax],ah
+16db:   20 20                   and    BYTE PTR [eax],ah
+16dd:   20 20                   and    BYTE PTR [eax],ah
+16df:   20 20                   and    BYTE PTR [eax],ah
+16e1:   20 20                   and    BYTE PTR [eax],ah
+16e3:   20 20                   and    BYTE PTR [eax],ah
+16e5:   20 20                   and    BYTE PTR [eax],ah
+16e7:   20 20                   and    BYTE PTR [eax],ah
+16e9:   20 20                   and    BYTE PTR [eax],ah
+16eb:   20 20                   and    BYTE PTR [eax],ah
+16ed:   20 20                   and    BYTE PTR [eax],ah
+16ef:   20 20                   and    BYTE PTR [eax],ah
+16f1:   20 20                   and    BYTE PTR [eax],ah
+16f3:   20 20                   and    BYTE PTR [eax],ah
+16f5:   20 20                   and    BYTE PTR [eax],ah
+16f7:   20 20                   and    BYTE PTR [eax],ah
+16f9:   20 20                   and    BYTE PTR [eax],ah
+16fb:   20 20                   and    BYTE PTR [eax],ah
+16fd:   20 20                   and    BYTE PTR [eax],ah
+16ff:   20 20                   and    BYTE PTR [eax],ah
+1701:   20 20                   and    BYTE PTR [eax],ah
+1703:   20 20                   and    BYTE PTR [eax],ah
+1705:   20 20                   and    BYTE PTR [eax],ah
+1707:   20 20                   and    BYTE PTR [eax],ah
+1709:   20 20                   and    BYTE PTR [eax],ah
+170b:   20 20                   and    BYTE PTR [eax],ah
+170d:   20 20                   and    BYTE PTR [eax],ah 
